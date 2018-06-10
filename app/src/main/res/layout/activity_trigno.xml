@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:backgroundTint="#E4DCCF"
+    android:background="#E4DCCF"
+    >
+    <include
+        layout="@layout/included_main"
+        android:id="@+id/included"
+        />
+
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/r3"
+            android:weightSum="3"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <ImageButton
+                android:layout_width="@dimen/width"
+                android:layout_height="@dimen/height"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/seletor_botao"
+                android:id="@+id/setting"
+                android:backgroundTint="#cec6c6"
+                android:cropToPadding="true"
+                android:scaleType="fitCenter" />
+
+
+            <Button
+                android:layout_margin="6dp"
+                android:layout_width="@dimen/width"
+                android:layout_height="@dimen/height"
+                android:background="@drawable/seletor_botao1"
+                android:layout_weight="1"
+                android:textSize="25sp"
+                android:layout_alignParentTop="true"
+                android:textColor="#FFFFFF"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/black3" />
+
+
+            <Button
+                android:layout_margin="6dp"
+                android:layout_width="@dimen/width"
+                android:layout_height="@dimen/height"
+                android:background="@drawable/seletor_botao"
+                android:layout_weight="1"
+                android:textSize="30dp"
+                android:backgroundTint="#cec6c6"
+                android:id="@+id/b3"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/r1"
+            android:layout_weight="3"
+            android:layout_above="@+id/r2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <Button
+                android:layout_margin="6dp"
+                android:layout_width="@dimen/width"
+                android:layout_height="@dimen/height"
+                android:backgroundTint="#cec6c6"
+                android:background="@drawable/seletor_botao"
+                android:id="@+id/b1"
+                android:layout_weight="1"/>
+
+            <Button
+                android:layout_width="@dimen/width"
+                android:layout_height="@dimen/height"
+                android:background="@drawable/seletor_botao1"
+                android:id="@+id/black1"
+                android:textSize="25sp"
+                android:textColor="#FFFFFF"
+                android:layout_weight="1"
+                android:layout_margin="6dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+
+            <Button
+                android:layout_width="@dimen/width"
+                android:layout_height="@dimen/height"
+                android:background="@drawable/seletor_botao2"
+                android:id="@+id/bclear"
+                android:layout_weight="1"
+                android:layout_margin="6dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:text="CLR"
+                android:textSize="30dp"
+                android:textColor="#ffff"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/r2"
+            android:layout_weight="3"
+
+            android:layout_above="@+id/r3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+            <Button
+                android:layout_margin="6dp"
+
+                android:layout_width="@dimen/width"
+                android:backgroundTint="#cec6c6"
+                android:layout_height="@dimen/height"
+                android:background="@drawable/seletor_botao"
+                android:id="@+id/b2"
+
+                android:layout_weight="1"/>
+
+            <Button
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:layout_width="@dimen/width"
+                android:layout_height="@dimen/height"
+                android:background="@drawable/seletor_botao1"
+                android:id="@+id/black2"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+            <Button
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:layout_width="@dimen/width"
+                android:layout_height="@dimen/height"
+                android:background="@drawable/seletor_botao"
+
+                android:backgroundTint="#cec6c6"
+                android:id="@+id/b4"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

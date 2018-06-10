@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#E4DCCF"
+    tools:context=".activity.basic">
+    <include
+        layout="@layout/included_main"
+        android:id="@+id/included"
+        />
+
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/r3"
+            android:weightSum="3"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true">
+
+            <ImageButton
+                android:layout_width="@dimen/width"
+                android:layout_height="@dimen/height"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:backgroundTint="#cec6c6"
+                android:background="@drawable/seletor_botao"
+                android:id="@+id/setting_button"
+                android:cropToPadding="true"
+                android:scaleType="fitCenter" />
+
+
+            <Button
+                android:layout_margin="6dp"
+                android:layout_width="@dimen/width"
+                android:layout_height="@dimen/height"
+                android:background="@drawable/seletor_botao1"
+                android:layout_weight="1"
+                android:textSize="30sp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/button_8" />
+
+
+            <Button
+                android:layout_margin="6dp"
+                android:layout_width="@dimen/width"
+                android:layout_height="@dimen/height"
+                android:background="@drawable/seletor_botao"
+                android:layout_weight="1"
+                android:textSize="30sp"
+                android:backgroundTint="#cec6c6"
+                android:id="@+id/button_9" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/r1"
+            android:layout_above="@+id/r2"
+            android:layout_alignParentStart="true">
+
+            <Button
+                android:layout_margin="6dp"
+                android:layout_width="@dimen/width"
+                android:layout_height="@dimen/height"
+                android:backgroundTint="#cec6c6"
+                android:background="@drawable/seletor_botao"
+                android:id="@+id/button_1"
+                android:layout_weight="1"/>
+
+            <Button
+                android:layout_width="@dimen/width"
+                android:layout_height="@dimen/height"
+                android:background="@drawable/seletor_botao1"
+                android:id="@+id/button_2"
+                android:textSize="30sp"
+                android:textColor="#FFFFFF"
+                android:layout_weight="1"
+                android:layout_margin="6dp" />
+
+
+            <Button
+                android:layout_width="@dimen/width"
+                android:layout_height="@dimen/height"
+                android:background="@drawable/seletor_botao2"
+                android:id="@+id/button_clear"
+                android:layout_weight="1"
+                android:layout_margin="6dp"
+                android:backgroundTint="#cec6c6"
+                android:textSize="25sp"
+                android:textColor="#ffff"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/r2"
+            android:layout_above="@+id/r3"
+            android:layout_alignParentStart="true">
+            <Button
+                android:layout_margin="6dp"
+
+                android:layout_width="@dimen/width"
+                android:backgroundTint="#cec6c6"
+                android:layout_height="@dimen/height"
+                android:background="@drawable/seletor_botao"
+                android:id="@+id/button_4"
+                android:layout_weight="1"/>
+
+            <Button
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:layout_width="@dimen/width"
+                android:layout_height="@dimen/height"
+                android:background="@drawable/seletor_botao1"
+                android:id="@+id/button_5"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"/>
+            <Button
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:layout_width="@dimen/width"
+                android:layout_height="@dimen/height"
+                android:background="@drawable/seletor_botao"
+                android:backgroundTint="#cec6c6"
+                android:id="@+id/button_6" />
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

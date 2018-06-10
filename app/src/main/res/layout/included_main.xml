@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4DCCF">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corners"
+        android:paddingBottom="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/header"
+        >
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="LEVEL 1"
+           android:id="@+id/level"
+           android:layout_marginTop="7dp"
+           android:textSize="29dp"
+           android:layout_marginLeft="32dp"
+           android:textColor="#FFFFFF"
+           android:layout_weight="1"
+           android:backgroundTint="#353E3D"
+           android:background="@drawable/rounded_corners"/>
+        <ImageView
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="32dp"
+            android:layout_gravity="center"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+             />
+
+    </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_margin="16dp"
+            android:layout_below="@id/header"
+            android:layout_height="200dp"
+
+            android:background="@drawable/rounded_corners_display">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="MOVES: 3"
+                android:padding="9dp"
+                android:textSize="20dp"
+                android:background="#383D37"
+                android:textColor="#A8B89E"
+                android:id="@+id/moves"
+                />
+            <TextView
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:padding="9dp"
+                android:id="@+id/goal"
+                android:layout_margin="6dp"
+                android:text="GOAL: 12"
+                android:layout_gravity="right"
+                android:background="#383D37"
+                android:textColor="#A8B89E"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="46dp"
+                android:layout_marginRight="16dp"
+                android:id="@+id/answer"
+                />
+        </RelativeLayout>
+
+        </RelativeLayout>
+
+</RelativeLayout>

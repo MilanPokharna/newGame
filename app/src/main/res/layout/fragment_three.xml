@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fbfcfc"
+    android:layout_height="match_parent"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/Tmargin"
+            android:layout_marginBottom="@dimen/Bmargin"
+            android:layout_marginRight="@dimen/Rmargin"
+            android:layout_marginLeft="@dimen/Lmargin">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/cardview1"
+                >
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/Parallelogram"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/shape1"
+                        android:textColor="@color/headcolor"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/comickings"
+                        android:textSize="@dimen/headsize"/>
+
+                    <TextView
+                        android:id="@+id/Parallelogram1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/contentfont"
+                        android:layout_below="@+id/Parallelogram"
+                        android:layout_marginTop="@dimen/Tmargin1"
+                        android:text="@string/S1content1"
+                        android:fontFamily="@font/earworm"
+                        android:textColor="@color/fontcolor"
+                        />
+
+
+                    <TextView
+                        android:id="@+id/Parallelogram2"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/fontcolor"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/earworm"
+                        android:textSize="@dimen/contentfont"
+                        android:layout_below="@+id/Parallelogram1"
+                        android:text="@string/S1content2" />
+
+                    <TextView
+                        android:id="@+id/Parallelogram3"
+                        android:textColor="@color/fontcolor"
+                        android:layout_width="match_parent"
+                        android:textSize="@dimen/contentfont"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/earworm"
+                        android:layout_below="@+id/Parallelogram2"
+                        android:text="@string/S1content3" />
+
+                    <ImageView
+                        android:id="@+id/ParallelogramImage"
+                        android:layout_width="@dimen/ImgWidth"
+                        android:layout_height="@dimen/ImgHeight"
+                        android:layout_below="@+id/Parallelogram3"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/Tmargin"
+                        android:src="@drawable/parallelogram1" />
+
+                    <TextView
+                        android:id="@+id/Formula1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ParallelogramImage"
+                        android:layout_marginTop="@dimen/Tmargin"
+                        android:text="@string/S1content4"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/grbld"
+                        android:textSize="@dimen/formsize"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/fill"
+                        android:layout_marginTop="10dp"
+                        android:background="#000000"
+                        android:layout_below="@+id/Formula1"/>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cardview2"
+                android:layout_below="@+id/cardview1">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/Rectangle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/headcolor"
+                        android:fontFamily="@font/comickings"
+                        android:textSize="@dimen/headsize"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/Tmargin2"
+                        android:text="@string/shape2"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/Rectangle1"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/fontcolor"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/earworm"
+                        android:textSize="@dimen/contentfont"
+                        android:layout_below="@+id/Rectangle"
+                        android:layout_marginTop="@dimen/Tmargin1"
+                        android:text="@string/S2content1" />
+
+
+                    <TextView
+                        android:id="@+id/Rectangle2"
+                        android:fontFamily="@font/earworm"
+                        android:textSize="@dimen/contentfont"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/fontcolor"
+                        android:layout_below="@+id/Rectangle1"
+                        android:text="@string/S2content2" />
+
+                    <ImageView
+                        android:id="@+id/RectangleImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="137dp"
+                        android:layout_below="@+id/Rectangle2"
+                        android:layout_marginTop="@dimen/Tmargin1"
+                        android:src="@drawable/rectangle1" />
+
+
+                    <TextView
+                        android:id="@+id/Formula2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/grbld"
+                        android:layout_below="@+id/RectangleImage"
+                        android:layout_marginTop="@dimen/Tmargin"
+                        android:text="@string/S2content3"
+                        android:textAlignment="center"
+                        android:textSize="@dimen/formsize"/>
+
+                    <TextView
+                        android:id="@+id/Formula2Content1"
+                        android:layout_width="match_parent"
+                        android:fontFamily="@font/earworm"
+                        android:textSize="@dimen/contentfont"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/Formula2"
+                        android:text="@string/S2content4"
+                        android:textColor="@color/fontcolor"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/Formula2Content2"
+                        android:layout_width="match_parent"
+                        android:fontFamily="@font/earworm"
+                        android:textSize="@dimen/contentfont"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/fontcolor"
+                        android:layout_below="@+id/Formula2Content1"
+                        android:text="@string/S2content5"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/Formula2Content3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/earworm"
+                        android:textSize="@dimen/contentfont"
+                        android:layout_below="@+id/Formula2Content2"
+                        android:text="@string/S2content6"
+                        android:textAlignment="center"
+                        android:textColor="@color/fontcolor"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/fill"
+                        android:layout_marginTop="10dp"
+                        android:background="#000000"
+                        android:layout_below="@+id/Formula2Content3"/>
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cardview2"
+                android:id="@+id/cardview3">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/Square"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/comickings"
+                        android:textSize="@dimen/headsize"
+                        android:textColor="@color/headcolor"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/Tmargin2"
+                        android:text="@string/shape3"
+                        android:textAlignment="center" />
+
+
+                    <TextView
+                        android:id="@+id/Square1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/earworm"
+                        android:textSize="@dimen/contentfont"
+                        android:layout_below="@+id/Square"
+                        android:textColor="@color/fontcolor"
+                        android:layout_marginTop="@dimen/Tmargin1"
+                        android:text="@string/S3content1" />
+
+                    <TextView
+                        android:id="@+id/Square2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/Square1"
+                        android:fontFamily="@font/earworm"
+                        android:textSize="@dimen/contentfont"
+                        android:textColor="@color/fontcolor"
+                        android:text="@string/S3content2" />
+                    <TextView
+                        android:id="@+id/Square3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/earworm"
+                        android:textSize="@dimen/contentfont"
+                        android:textColor="@color/fontcolor"
+                        android:layout_below="@+id/Square2"
+                        android:text="@string/S3content3" />
+
+
+                    <ImageView
+                        android:id="@+id/SquareImage"
+                        android:layout_width="75dp"
+                        android:layout_height="80dp"
+                        android:layout_below="@+id/Square3"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/Tmargin1"
+                        android:src="@drawable/square1" />
+
+
+                    <TextView
+                        android:id="@+id/Formula3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/grbld"
+                        android:layout_below="@+id/SquareImage"
+                        android:layout_marginTop="@dimen/Tmargin"
+                        android:text="@string/S3content4"
+                        android:textSize="@dimen/formsize"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/fill"
+                        android:layout_marginTop="10dp"
+                        android:background="#000000"
+                        android:layout_below="@+id/Formula3"/>
+
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cardview4"
+                android:layout_below="@+id/cardview3">
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:id="@+id/Triangle"
+                        android:fontFamily="@font/comickings"
+                        android:layout_width="match_parent"
+                        android:textSize="@dimen/headsize"
+                        android:textColor="@color/headcolor"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/Tmargin2"
+                        android:text="@string/shape4"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/Triangle1"
+                        android:layout_width="match_parent"
+                        android:fontFamily="@font/earworm"
+                        android:textSize="@dimen/contentfont"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/Triangle"
+                        android:layout_marginTop="@dimen/Tmargin1"
+                        android:text="@string/S4content1" />
+
+
+                    <TextView
+                        android:id="@+id/Triangle2"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/fontcolor"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/Triangle1"
+                        android:fontFamily="@font/earworm"
+                        android:textSize="@dimen/contentfont"
+                        android:text="@string/S4content2" />
+                    <TextView
+                        android:id="@+id/Triangle3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/earworm"
+                        android:textSize="@dimen/contentfont"
+                        android:layout_below="@+id/Triangle2"
+                        android:textColor="@color/fontcolor"
+                        android:text="@string/S4content3" />
+
+
+                    <TextView
+                        android:id="@+id/Triangle4"
+                        android:fontFamily="@font/earworm"
+                        android:textSize="@dimen/contentfont"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/Triangle3"
+                        android:textColor="@color/fontcolor"
+                        android:text="@string/S4content4"
+                        />
+
+                    <ImageView
+                        android:id="@+id/TriangleImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_below="@+id/Triangle4"
+                        android:layout_marginTop="@dimen/Tmargin1"
+                        android:src="@drawable/triangle1" />
+
+
+                    <TextView
+                        android:id="@+id/Formula4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TriangleImage"
+                        android:fontFamily="@font/grbld"
+                        android:textSize="@dimen/formsize"
+                        android:layout_marginTop="@dimen/Tmargin"
+                        android:text="@string/S4content5"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/fill"
+                        android:layout_marginTop="10dp"
+                        android:background="#000000"
+                        android:layout_below="@+id/Formula4"/>
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cardview5"
+                android:layout_marginBottom="30sp"
+                android:layout_below="@+id/cardview4">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/Circle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/headsize"
+                        android:textColor="@color/headcolor"
+                        android:fontFamily="@font/comickings"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/Tmargin2"
+                        android:text="@string/shape5"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/Circle1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/earworm"
+                        android:textSize="@dimen/contentfont"
+                        android:layout_below="@+id/Circle"
+                        android:layout_marginTop="@dimen/Tmargin1"
+                        android:textColor="@color/fontcolor"
+                        android:text="@string/S5content1" />
+
+                    <TextView
+                        android:id="@+id/Circle2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/earworm"
+                        android:textSize="@dimen/contentfont"
+                        android:layout_below="@+id/Circle1"
+                        android:textColor="@color/fontcolor"
+                        android:text="@string/S5content2" />
+
+                    <TextView
+                        android:id="@+id/Circle3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/Circle2"
+                        android:fontFamily="@font/earworm"
+                        android:textSize="@dimen/contentfont"
+                        android:textColor="@color/fontcolor"
+                        android:text="@string/S5content3" />
+
+
+                    <ImageView
+                        android:id="@+id/CircleImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="105dp"
+                        android:layout_below="@+id/Circle3"
+
+                        android:src="@drawable/circle1" />
+
+
+                    <TextView
+                        android:id="@+id/Formula5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/CircleImage"
+                        android:fontFamily="@font/grbld"
+                        android:layout_marginTop="@dimen/Tmargin"
+                        android:text="@string/S5content4"
+                        android:textSize="@dimen/formsize"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/fill"
+                        android:layout_marginTop="10dp"
+                        android:background="#000000"
+                        android:layout_below="@+id/Formula5"
+                        />
+
+
+                </RelativeLayout>
+
+
+
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

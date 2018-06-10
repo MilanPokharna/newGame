@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fbfcfc"
+    android:paddingBottom="40dp"
+    android:id="@+id/sc"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="20dp">
+
+            //addition
+            <LinearLayout
+                android:id="@+id/add_layout"
+                android:padding="@dimen/padding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/add"
+                    android:padding="@dimen/padding"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="ADDITION"
+                    android:textColor="@color/headcolor"
+                    android:fontFamily="@font/comickings"
+                    android:textSize="@dimen/headsize"
+                    />
+
+                <LinearLayout
+                    
+                    android:id="@+id/apple_layout"
+                    android:padding="@dimen/padding"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/width"
+                        android:layout_height="@dimen/width"
+
+
+                        android:src="@drawable/three"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="20dp"
+                        android:text="+"
+                        android:layout_gravity="center_vertical"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:textSize="25dp" />
+
+                    <ImageView
+                        android:layout_width="@dimen/width"
+                        android:layout_height="@dimen/width"
+                        android:layout_weight="1"
+                        android:src="@drawable/two" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_gravity="center_vertical"
+                        android:textStyle="bold"
+                        android:text="="
+                        android:textAlignment="center"
+                        android:textSize="25dp" />
+
+                    <ImageView
+                        android:layout_width="@dimen/width"
+                        android:layout_height="@dimen/width"
+                        android:layout_weight="1"
+                        android:src="@drawable/five" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="@dimen/padding"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/grbld"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:text="3            +          2      =       5"
+                    android:textSize="@dimen/textSize"/>
+
+            </LinearLayout>
+
+            //subtraction
+            <LinearLayout
+                android:id="@+id/sub_layout"
+                android:padding="@dimen/padding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                //android:layout_below="@+id/add_layout">
+
+                <TextView
+                    android:id="@+id/sub"
+                    android:padding="@dimen/padding"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/comickings"
+                    android:textColor="@color/headcolor"
+                    android:text="SUBTRACTION"
+                    android:textSize="@dimen/headsize"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/apple_layout2"
+                    android:padding="@dimen/padding"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/width"
+                        android:layout_height="@dimen/width"
+
+                        android:src="@drawable/five" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:textStyle="bold"
+                        android:text="-"
+                        android:textAlignment="center"
+                        android:textSize="25dp" />
+
+                    <ImageView
+                        android:layout_width="@dimen/width"
+                        android:layout_height="@dimen/width"
+                        android:layout_weight="1"
+                        android:src="@drawable/two" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:textStyle="bold"
+                        android:text="="
+                        android:textAlignment="center"
+                        android:textSize="25dp" />
+
+                    <ImageView
+                        android:layout_width="@dimen/width"
+                        android:layout_height="@dimen/width"
+                        android:src="@drawable/three" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="@dimen/padding"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/grbld"
+                    android:textAlignment="center"
+                    android:text="5            -          2      =       3"
+                    android:textSize="@dimen/textSize"/>
+
+            </LinearLayout>
+
+
+            //multiplication
+            <LinearLayout
+                android:id="@+id/mul_layout"
+                android:padding="@dimen/padding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                        //android:layout_below="@+id/add_layout">
+
+                <TextView
+                    android:id="@+id/mul"
+                    android:padding="@dimen/padding"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/headcolor"
+                    android:fontFamily="@font/comickings"
+                    android:text="MULTIPLICATION"
+                    android:textSize="@dimen/headsize" />
+
+                <LinearLayout
+                    android:padding="@dimen/padding"
+                    android:id="@+id/apple_layout3"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/width"
+                        android:layout_height="@dimen/width"
+
+                        android:src="@drawable/three" />
+
+                    <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:textStyle="bold"
+                                android:text="x"
+                                android:textAlignment="center"
+                                android:textSize="25dp" />
+
+                    <ImageView
+                                android:layout_width="@dimen/width"
+                                android:layout_height="@dimen/width"
+                                android:layout_weight="1"
+                                android:src="@drawable/two" />
+
+                    <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:textStyle="bold"
+                                android:text="="
+                                android:textAlignment="center"
+                                android:textSize="25dp" />
+
+                    <ImageView
+                                android:layout_width="@dimen/width"
+                                android:layout_height="@dimen/width"
+                                android:src="@drawable/six" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:padding="@dimen/padding"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/grbld"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:text="3            x          2      =       6"
+                    android:textSize="@dimen/textSize"/>
+
+            </LinearLayout>
+
+            //division
+            <LinearLayout
+                android:id="@+id/div_layout"
+                android:padding="@dimen/padding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                //android:layout_below="@+id/add_layout">
+
+                <TextView
+                    android:id="@+id/div"
+                    android:padding="@dimen/padding"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/comickings"
+                    android:textColor="@color/headcolor"
+                    android:text="DIVISION"
+                    android:textSize="@dimen/headsize"/>
+
+                <LinearLayout
+                    android:id="@+id/apple_layout4"
+                    android:padding="@dimen/padding"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/width"
+                                android:layout_height="@dimen/width"
+
+                                android:src="@drawable/six" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:textStyle="bold"
+                                android:paddingLeft="30sp"
+                                android:text="/"
+                                android:textAlignment="center"
+                                android:textSize="25dp" />
+
+                            <ImageView
+                                android:layout_width="@dimen/width"
+                                android:layout_height="@dimen/width"
+                                android:layout_weight="1"
+                                android:src="@drawable/two" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:paddingLeft="20dp"
+                                android:layout_gravity="center_vertical"
+                                android:textStyle="bold"
+                                android:layout_height="wrap_content"
+                                android:text="="
+                                android:textAlignment="center"
+                                android:textSize="25dp" />
+
+                            <ImageView
+                                android:layout_width="@dimen/width"
+                                android:layout_height="@dimen/width"
+                                android:src="@drawable/three" />
+
+
+                </LinearLayout>
+
+                <TextView
+                        android:padding="@dimen/padding"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/grbld"
+                    android:textAlignment="center"
+                            android:text="6            /          2      =       3"
+                            android:textSize="@dimen/textSize"/>
+
+                    </LinearLayout>
+
+        </LinearLayout>
+
+
+</ScrollView>

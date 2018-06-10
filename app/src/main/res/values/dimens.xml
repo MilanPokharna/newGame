@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_margin_bottom">20dp</dimen>
+    <dimen name="img_width_height">200dp</dimen>
+    <dimen name="slide_title">30dp</dimen>
+    <dimen name="slide_desc">20dp</dimen>
+    <dimen name="desc_padding">40dp</dimen>
+    <dimen name="activity_horizontal_marginbtn">30dp</dimen>
+    <dimen name="activity_vertical_marginbtn">10dp</dimen>
+    <dimen name="width">50dp</dimen>
+    <dimen name="height">70dp</dimen>
+
+    <dimen name="corner_radius">5dp</dimen>
+    <dimen name="layer_padding">10dp</dimen>
+    <dimen name="width1">50dp</dimen>
+    <dimen name="textSize">20dp</dimen>
+    <dimen name="padding">10dp</dimen>
+    <dimen name="Lmargin">20dp</dimen>
+    <dimen name="Rmargin">20dp</dimen>
+    <dimen name="Tmargin">20dp</dimen>
+    <dimen name="Tmargin1">10dp</dimen>
+    <dimen name="Bmargin">20dp</dimen>
+    <dimen name="ImgHeight">50dp</dimen>
+    <dimen name="ImgWidth">150dp</dimen>
+    <dimen name="Tmargin2">30dp</dimen>
+    <dimen name="headsize">32dp</dimen>
+    <dimen name="contentfont">22dp</dimen>
+    <dimen name="formsize">18dp</dimen>
+    <dimen name="fill">1.5dp</dimen>
+</resources>
