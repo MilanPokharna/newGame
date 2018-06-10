@@ -59,6 +59,8 @@ public class basic extends AppCompatActivity {
     private int moves_in_level = 3;
     private int goal_in_level = 12;
     private int result_in_game = 0;
+    public String loose = "YOU LOOSE";
+    public String winn = "YOU WIN";
     //    private String Operator_array[]=new String[9];
 //    private int digit_array[]=new int[9];
     private int flag = 1;
@@ -140,10 +142,10 @@ public class basic extends AppCompatActivity {
                     moves_in_level = moves_in_level - 1;
                     result_in_game = result_in_game + 2;
                     if ((moves_in_level == 0) && (result_in_game != goal_in_level)) {
-                        textViewAnswer.setText("You Loose");
+                        textViewAnswer.setText(loose);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setTitle("OOPS Better Luck Next Time ");
-                        dialog.setMessage("YOU LOOSE");
+                        dialog.setMessage(loose);
                         dialog.setCancelable(false);
                         dialog.setPositiveButton("PLAY AGAIN", new DialogInterface.OnClickListener() {
                             @Override
@@ -157,10 +159,10 @@ public class basic extends AppCompatActivity {
                         textViewAnswer.setText(a);
                         startGame(1, moves_in_level, goal_in_level, result_in_game);
                     } else if ((moves_in_level == 0) && (result_in_game == goal_in_level)) {
-                        textViewAnswer.setText("You WIN");
+                        textViewAnswer.setText(winn);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setTitle("CONGRATULATIONS");
-                        dialog.setMessage("YOU WIN");
+                        dialog.setMessage(winn);
                         dialog.setCancelable(false);
                         dialog.setPositiveButton("Next Level", new DialogInterface.OnClickListener() {
                             @Override
@@ -176,11 +178,11 @@ public class basic extends AppCompatActivity {
                     moves_in_level = moves_in_level - 1;
                     result_in_game = result_in_game / 4;
                     if ((moves_in_level == 0) && (result_in_game != goal_in_level)) {
-                        textViewAnswer.setText("You Loose");
+                        textViewAnswer.setText(loose);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setTitle("OOPS Better Luck Next Time ");
                         dialog.setCancelable(false);
-                        dialog.setMessage("YOU LOOSE");
+                        dialog.setMessage(loose);
                         dialog.setPositiveButton("PLAY AGAIN", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -193,10 +195,10 @@ public class basic extends AppCompatActivity {
                         textViewAnswer.setText(a);
                         startGame(2, moves_in_level, goal_in_level, result_in_game);
                     } else if ((moves_in_level == 0) && (result_in_game == goal_in_level)) {
-                        textViewAnswer.setText("You WIN");
+                        textViewAnswer.setText(winn);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setTitle("CONGRATULATIONS");
-                        dialog.setMessage("YOU WIN");
+                        dialog.setMessage(winn);
                         dialog.setCancelable(false);
                         dialog.setPositiveButton("Next Level", new DialogInterface.OnClickListener() {
                             @Override
@@ -212,10 +214,10 @@ public class basic extends AppCompatActivity {
                     moves_in_level = moves_in_level - 1;
                     result_in_game = result_in_game * 3;
                     if ((moves_in_level == 0) && (result_in_game != goal_in_level)) {
-                        textViewAnswer.setText("You Loose");
+                        textViewAnswer.setText(loose);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setTitle("OOPS Better Luck Next Time ");
-                        dialog.setMessage("YOU LOOSE");
+                        dialog.setMessage(loose);
                         dialog.setCancelable(false);
                         dialog.setPositiveButton("PLAY AGAIN", new DialogInterface.OnClickListener() {
                             @Override
@@ -229,11 +231,11 @@ public class basic extends AppCompatActivity {
                         textViewAnswer.setText(a);
                         startGame(3, moves_in_level, 12, result_in_game);
                     } else if ((moves_in_level == 0) && (result_in_game == goal_in_level)) {
-                        textViewAnswer.setText("You WIN");
+                        textViewAnswer.setText(winn);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setTitle("CONGRATULATIONS");
                         dialog.setCancelable(false);
-                        dialog.setMessage("YOU WIN");
+                        dialog.setMessage(winn);
                         dialog.setPositiveButton("Next Level", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -248,11 +250,11 @@ public class basic extends AppCompatActivity {
                     moves_in_level = moves_in_level - 1;
                     result_in_game = result_in_game / 2;
                     if ((moves_in_level == 0) && (result_in_game != goal_in_level)) {
-                        textViewAnswer.setText("You Loose");
+                        textViewAnswer.setText(loose);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setTitle("OOPS Better Luck Next Time ");
                         dialog.setCancelable(false);
-                        dialog.setMessage("YOU LOOSE");
+                        dialog.setMessage(loose);
                         dialog.setPositiveButton("PLAY AGAIN", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -266,11 +268,11 @@ public class basic extends AppCompatActivity {
                         textViewAnswer.setText(a);
                         startGame(4, moves_in_level, 404, result_in_game);
                     } else if ((moves_in_level == 0) && (result_in_game == goal_in_level)) {
-                        textViewAnswer.setText("You WIN");
+                        textViewAnswer.setText(winn);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setTitle("CONGRATULATIONS");
                         dialog.setCancelable(false);
-                        dialog.setMessage("YOU WIN");
+                        dialog.setMessage(winn);
                         dialog.setPositiveButton("Next Level", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -285,11 +287,11 @@ public class basic extends AppCompatActivity {
                     moves_in_level = moves_in_level - 1;
                     result_in_game = result_in_game - 5;
                     if ((moves_in_level == 0) && (result_in_game != goal_in_level)) {
-                        textViewAnswer.setText("You Loose");
+                        textViewAnswer.setText(loose);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setCancelable(false);
                         dialog.setTitle("OOPS Better Luck Next Time ");
-                        dialog.setMessage("YOU LOOSE");
+                        dialog.setMessage(loose);
                         dialog.setPositiveButton("PLAY AGAIN", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -302,11 +304,11 @@ public class basic extends AppCompatActivity {
                         textViewAnswer.setText(a);
                         startGame(5, moves_in_level, 50, result_in_game);
                     } else if ((moves_in_level == 0) && (result_in_game == goal_in_level)) {
-                        textViewAnswer.setText("You WIN");
+                        textViewAnswer.setText(winn);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setTitle("CONGRATULATIONS");
                         dialog.setCancelable(false);
-                        dialog.setMessage("YOU WIN");
+                        dialog.setMessage(winn);
                         dialog.setPositiveButton("Next Level", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -320,11 +322,11 @@ public class basic extends AppCompatActivity {
                     moves_in_level = moves_in_level - 1;
                     result_in_game = result_in_game / 10;
                     if ((moves_in_level == 0) && (result_in_game != goal_in_level)) {
-                        textViewAnswer.setText("You Loose");
+                        textViewAnswer.setText(loose);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setTitle("OOPS Better Luck Next Time ");
                         dialog.setCancelable(false);
-                        dialog.setMessage("YOU LOOSE");
+                        dialog.setMessage(loose);
                         dialog.setPositiveButton("PLAY AGAIN", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -337,10 +339,10 @@ public class basic extends AppCompatActivity {
                         textViewAnswer.setText(a);
                         startGame(6, moves_in_level, 23, result_in_game);
                     } else if ((moves_in_level == 0) && (result_in_game == goal_in_level)) {
-                        textViewAnswer.setText("You WIN");
+                        textViewAnswer.setText(winn);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setTitle("CONGRATULATIONS");
-                        dialog.setMessage("YOU WIN");
+                        dialog.setMessage(winn);
                         dialog.setCancelable(false);
                         dialog.setPositiveButton("Next Level", new DialogInterface.OnClickListener() {
                             @Override
@@ -356,11 +358,11 @@ public class basic extends AppCompatActivity {
                     moves_in_level = moves_in_level - 1;
                     result_in_game = result_in_game / 10;
                     if ((moves_in_level == 0) && (result_in_game != goal_in_level)) {
-                        textViewAnswer.setText("You Loose");
+                        textViewAnswer.setText(loose);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setCancelable(false);
                         dialog.setTitle("OOPS Better Luck Next Time ");
-                        dialog.setMessage("YOU LOOSE");
+                        dialog.setMessage(loose);
                         dialog.setPositiveButton("PLAY AGAIN", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -373,11 +375,11 @@ public class basic extends AppCompatActivity {
                         textViewAnswer.setText(a);
                         startGame(7, moves_in_level, 2, result_in_game);
                     } else if ((moves_in_level == 0) && (result_in_game == goal_in_level)) {
-                        textViewAnswer.setText("You WIN");
+                        textViewAnswer.setText(winn);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setCancelable(false);
                         dialog.setTitle("CONGRATULATIONS");
-                        dialog.setMessage("YOU WIN");
+                        dialog.setMessage(winn);
                         dialog.setPositiveButton("Next Level", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -391,11 +393,11 @@ public class basic extends AppCompatActivity {
                     moves_in_level = moves_in_level - 1;
                     result_in_game = result_in_game / 10;
                     if ((moves_in_level == 0) && (result_in_game != goal_in_level)) {
-                        textViewAnswer.setText("You Loose");
+                        textViewAnswer.setText(loose);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setCancelable(false);
                         dialog.setTitle("OOPS Better Luck Next Time ");
-                        dialog.setMessage("YOU LOOSE");
+                        dialog.setMessage(loose);
                         dialog.setPositiveButton("PLAY AGAIN", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -408,11 +410,11 @@ public class basic extends AppCompatActivity {
                         textViewAnswer.setText(a);
                         startGame(8, moves_in_level, 100, result_in_game);
                     } else if ((moves_in_level == 0) && (result_in_game == goal_in_level)) {
-                        textViewAnswer.setText("You WIN");
+                        textViewAnswer.setText(winn);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setCancelable(false);
                         dialog.setTitle("CONGRATULATIONS");
-                        dialog.setMessage("YOU WIN");
+                        dialog.setMessage(winn);
                         dialog.setPositiveButton("Next Level", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -427,11 +429,11 @@ public class basic extends AppCompatActivity {
                     moves_in_level = moves_in_level - 1;
                     result_in_game = result_in_game + 0;
                     if ((moves_in_level == 0) && (result_in_game != goal_in_level)) {
-                        textViewAnswer.setText("You Loose");
+                        textViewAnswer.setText(loose);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setCancelable(false);
                         dialog.setTitle("OOPS Better Luck Next Time ");
-                        dialog.setMessage("YOU LOOSE");
+                        dialog.setMessage(loose);
                         dialog.setPositiveButton("PLAY AGAIN", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -444,10 +446,10 @@ public class basic extends AppCompatActivity {
                         textViewAnswer.setText(a);
                         startGame(9, moves_in_level, 64, result_in_game);
                     } else if ((moves_in_level == 0) && (result_in_game == goal_in_level)) {
-                        textViewAnswer.setText("You WIN");
+                        textViewAnswer.setText(winn);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setTitle("CONGRATULATIONS");
-                        dialog.setMessage("YOU WIN");
+                        dialog.setMessage(winn);
                         dialog.setCancelable(false);
                         dialog.setPositiveButton("Next Level", new DialogInterface.OnClickListener() {
                             @Override
@@ -463,11 +465,11 @@ public class basic extends AppCompatActivity {
                     moves_in_level = moves_in_level - 1;
                     result_in_game = result_in_game + 0;
                     if ((moves_in_level == 0) && (result_in_game != goal_in_level)) {
-                        textViewAnswer.setText("You Loose");
+                        textViewAnswer.setText(loose);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setTitle("OOPS Better Luck Next Time ");
                         dialog.setCancelable(false);
-                        dialog.setMessage("YOU LOOSE");
+                        dialog.setMessage(loose);
                         dialog.setPositiveButton("PLAY AGAIN", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -480,7 +482,7 @@ public class basic extends AppCompatActivity {
                         textViewAnswer.setText(a);
                         startGame(10, moves_in_level, 100, result_in_game);
                     } else if ((moves_in_level == 0) && (result_in_game == goal_in_level)) {
-                        textViewAnswer.setText("You WIN");
+                        textViewAnswer.setText(winn);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setTitle("CONGRATULATIONS");
                         dialog.setCancelable(false);
@@ -502,11 +504,11 @@ public class basic extends AppCompatActivity {
                     moves_in_level = moves_in_level - 1;
                     result_in_game = result_in_game * 4;
                     if ((moves_in_level == 0) && (result_in_game != goal_in_level)) {
-                        textViewAnswer.setText("You Loose");
+                        textViewAnswer.setText(loose);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setCancelable(false);
                         dialog.setTitle("OOPS Better Luck Next Time ");
-                        dialog.setMessage("YOU LOOSE");
+                        dialog.setMessage(loose);
                         dialog.setPositiveButton("PLAY AGAIN", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -519,11 +521,11 @@ public class basic extends AppCompatActivity {
                         textViewAnswer.setText(a);
                         startGame(1, moves_in_level, goal_in_level, result_in_game);
                     } else if ((moves_in_level == 0) && (result_in_game == goal_in_level)) {
-                        textViewAnswer.setText("You WIN");
+                        textViewAnswer.setText(winn);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setCancelable(false);
                         dialog.setTitle("CONGRATULATIONS");
-                        dialog.setMessage("YOU WIN");
+                        dialog.setMessage(winn);
                         dialog.setPositiveButton("Next Level", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -536,11 +538,11 @@ public class basic extends AppCompatActivity {
                     moves_in_level = moves_in_level - 1;
                     result_in_game = result_in_game + 4;
                     if ((moves_in_level == 0) && (result_in_game != goal_in_level)) {
-                        textViewAnswer.setText("You Loose");
+                        textViewAnswer.setText(loose);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setTitle("OOPS Better Luck Next Time ");
                         dialog.setCancelable(false);
-                        dialog.setMessage("YOU LOOSE");
+                        dialog.setMessage(loose);
                         dialog.setPositiveButton("PLAY AGAIN", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -553,11 +555,11 @@ public class basic extends AppCompatActivity {
                         textViewAnswer.setText(a);
                         startGame(2, moves_in_level, 4, result_in_game);
                     } else if ((moves_in_level == 0) && (result_in_game == goal_in_level)) {
-                        textViewAnswer.setText("You WIN");
+                        textViewAnswer.setText(winn);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setTitle("CONGRATULATIONS");
                         dialog.setCancelable(false);
-                        dialog.setMessage("YOU WIN");
+                        dialog.setMessage(winn);
                         dialog.setPositiveButton("Next Level", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -572,11 +574,11 @@ public class basic extends AppCompatActivity {
                     moves_in_level = moves_in_level - 1;
                     result_in_game = result_in_game / 3;
                     if ((moves_in_level == 0) && (result_in_game != goal_in_level)) {
-                        textViewAnswer.setText("You Loose");
+                        textViewAnswer.setText(loose);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setCancelable(false);
                         dialog.setTitle("OOPS Better Luck Next Time ");
-                        dialog.setMessage("YOU LOOSE");
+                        dialog.setMessage(loose);
                         dialog.setPositiveButton("PLAY AGAIN", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -589,11 +591,11 @@ public class basic extends AppCompatActivity {
                         textViewAnswer.setText(a);
                         startGame(3, moves_in_level, 12, result_in_game);
                     } else if ((moves_in_level == 0) && (result_in_game == goal_in_level)) {
-                        textViewAnswer.setText("You WIN");
+                        textViewAnswer.setText(winn);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setTitle("CONGRATULATIONS");
                         dialog.setCancelable(false);
-                        dialog.setMessage("YOU WIN");
+                        dialog.setMessage(winn);
                         dialog.setPositiveButton("Next Level", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -608,11 +610,11 @@ public class basic extends AppCompatActivity {
                     moves_in_level = moves_in_level - 1;
                     result_in_game = result_in_game + 8;
                     if ((moves_in_level == 0) && (result_in_game != goal_in_level)) {
-                        textViewAnswer.setText("You Loose");
+                        textViewAnswer.setText(loose);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setCancelable(false);
                         dialog.setTitle("OOPS Better Luck Next Time ");
-                        dialog.setMessage("YOU LOOSE");
+                        dialog.setMessage(loose);
                         dialog.setPositiveButton("PLAY AGAIN", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -625,11 +627,11 @@ public class basic extends AppCompatActivity {
                         textViewAnswer.setText(a);
                         startGame(4, moves_in_level, 404, result_in_game);
                     } else if ((moves_in_level == 0) && (result_in_game == goal_in_level)) {
-                        textViewAnswer.setText("You WIN");
+                        textViewAnswer.setText(winn);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setTitle("CONGRATULATIONS");
                         dialog.setCancelable(false);
-                        dialog.setMessage("YOU WIN");
+                        dialog.setMessage(winn);
                         dialog.setPositiveButton("Next Level", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -644,10 +646,10 @@ public class basic extends AppCompatActivity {
                     moves_in_level = moves_in_level - 1;
                     result_in_game = result_in_game * 3;
                     if ((moves_in_level == 0) && (result_in_game != goal_in_level)) {
-                        textViewAnswer.setText("You Loose");
+                        textViewAnswer.setText(loose);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setTitle("OOPS Better Luck Next Time ");
-                        dialog.setMessage("YOU LOOSE");
+                        dialog.setMessage(loose);
                         dialog.setCancelable(false);
                         dialog.setPositiveButton("PLAY AGAIN", new DialogInterface.OnClickListener() {
                             @Override
@@ -661,11 +663,11 @@ public class basic extends AppCompatActivity {
                         textViewAnswer.setText(a);
                         startGame(5, moves_in_level, 50, result_in_game);
                     } else if ((moves_in_level == 0) && (result_in_game == goal_in_level)) {
-                        textViewAnswer.setText("You WIN");
+                        textViewAnswer.setText(winn);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setCancelable(false);
                         dialog.setTitle("CONGRATULATIONS");
-                        dialog.setMessage("YOU WIN");
+                        dialog.setMessage(winn);
                         dialog.setPositiveButton("Next Level", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -679,11 +681,11 @@ public class basic extends AppCompatActivity {
                     moves_in_level = moves_in_level - 1;
                     result_in_game = result_in_game * 2;
                     if ((moves_in_level == 0) && (result_in_game != goal_in_level)) {
-                        textViewAnswer.setText("You Loose");
+                        textViewAnswer.setText(loose);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setTitle("OOPS Better Luck Next Time ");
                         dialog.setCancelable(false);
-                        dialog.setMessage("YOU LOOSE");
+                        dialog.setMessage(loose);
                         dialog.setPositiveButton("PLAY AGAIN", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -696,11 +698,11 @@ public class basic extends AppCompatActivity {
                         textViewAnswer.setText(a);
                         startGame(6, moves_in_level, 23, result_in_game);
                     } else if ((moves_in_level == 0) && (result_in_game == goal_in_level)) {
-                        textViewAnswer.setText("You WIN");
+                        textViewAnswer.setText(winn);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setCancelable(false);
                         dialog.setTitle("CONGRATULATIONS");
-                        dialog.setMessage("YOU WIN");
+                        dialog.setMessage(winn);
                         dialog.setPositiveButton("Next Level", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -715,11 +717,11 @@ public class basic extends AppCompatActivity {
                     moves_in_level = moves_in_level - 1;
                     result_in_game = result_in_game + 4;
                     if ((moves_in_level == 0) && (result_in_game != goal_in_level)) {
-                        textViewAnswer.setText("You Loose");
+                        textViewAnswer.setText(loose);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setTitle("OOPS Better Luck Next Time ");
                         dialog.setCancelable(false);
-                        dialog.setMessage("YOU LOOSE");
+                        dialog.setMessage(loose);
                         dialog.setPositiveButton("PLAY AGAIN", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -732,11 +734,11 @@ public class basic extends AppCompatActivity {
                         textViewAnswer.setText(a);
                         startGame(7, moves_in_level, 2, result_in_game);
                     } else if ((moves_in_level == 0) && (result_in_game == goal_in_level)) {
-                        textViewAnswer.setText("You WIN");
+                        textViewAnswer.setText(winn);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setTitle("CONGRATULATIONS");
                         dialog.setCancelable(false);
-                        dialog.setMessage("YOU WIN");
+                        dialog.setMessage(winn);
                         dialog.setPositiveButton("Next Level", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -750,11 +752,11 @@ public class basic extends AppCompatActivity {
                     moves_in_level = moves_in_level - 1;
                     result_in_game = result_in_game - 8;
                     if ((moves_in_level == 0) && (result_in_game != goal_in_level)) {
-                        textViewAnswer.setText("You Loose");
+                        textViewAnswer.setText(loose);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setTitle("OOPS Better Luck Next Time ");
                         dialog.setCancelable(false);
-                        dialog.setMessage("YOU LOOSE");
+                        dialog.setMessage(loose);
                         dialog.setPositiveButton("PLAY AGAIN", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -767,11 +769,11 @@ public class basic extends AppCompatActivity {
                         textViewAnswer.setText(a);
                         startGame(8, moves_in_level, 100, result_in_game);
                     } else if ((moves_in_level == 0) && (result_in_game == goal_in_level)) {
-                        textViewAnswer.setText("You WIN");
+                        textViewAnswer.setText(winn);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setTitle("CONGRATULATIONS");
                         dialog.setCancelable(false);
-                        dialog.setMessage("YOU WIN");
+                        dialog.setMessage(winn);
                         dialog.setPositiveButton("Next Level", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -786,11 +788,11 @@ public class basic extends AppCompatActivity {
                     moves_in_level = moves_in_level - 1;
                     result_in_game = result_in_game * 4;
                     if ((moves_in_level == 0) && (result_in_game != goal_in_level)) {
-                        textViewAnswer.setText("You Loose");
+                        textViewAnswer.setText(loose);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setTitle("OOPS Better Luck Next Time ");
                         dialog.setCancelable(false);
-                        dialog.setMessage("YOU LOOSE");
+                        dialog.setMessage(loose);
                         dialog.setPositiveButton("PLAY AGAIN", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -803,11 +805,11 @@ public class basic extends AppCompatActivity {
                         textViewAnswer.setText(a);
                         startGame(9, moves_in_level, 64, result_in_game);
                     } else if ((moves_in_level == 0) && (result_in_game == goal_in_level)) {
-                        textViewAnswer.setText("You WIN");
+                        textViewAnswer.setText(winn);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setTitle("CONGRATULATIONS");
                         dialog.setCancelable(false);
-                        dialog.setMessage("YOU WIN");
+                        dialog.setMessage(winn);
                         dialog.setPositiveButton("Next Level", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -822,11 +824,11 @@ public class basic extends AppCompatActivity {
                     moves_in_level = moves_in_level - 1;
                     result_in_game = result_in_game / 4;
                     if ((moves_in_level == 0) && (result_in_game != goal_in_level)) {
-                        textViewAnswer.setText("You Loose");
+                        textViewAnswer.setText(loose);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setTitle("OOPS Better Luck Next Time ");
                         dialog.setCancelable(false);
-                        dialog.setMessage("YOU LOOSE");
+                        dialog.setMessage(loose);
                         dialog.setPositiveButton("PLAY AGAIN", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -839,7 +841,7 @@ public class basic extends AppCompatActivity {
                         textViewAnswer.setText(a);
                         startGame(10, moves_in_level, 100, result_in_game);
                     } else if ((moves_in_level == 0) && (result_in_game == goal_in_level)) {
-                        textViewAnswer.setText("You WIN");
+                        textViewAnswer.setText(winn);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setTitle("CONGRATULATIONS");
                         dialog.setCancelable(false);
@@ -862,10 +864,10 @@ public class basic extends AppCompatActivity {
                     moves_in_level = moves_in_level - 1;
                     result_in_game = result_in_game + 1;
                     if ((moves_in_level == 0) && (result_in_game != goal_in_level)) {
-                        textViewAnswer.setText("You Loose");
+                        textViewAnswer.setText(loose);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setTitle("OOPS Better Luck Next Time ");
-                        dialog.setMessage("YOU LOOSE");
+                        dialog.setMessage(loose);
                         dialog.setCancelable(false);
                         dialog.setPositiveButton("PLAY AGAIN", new DialogInterface.OnClickListener() {
                             @Override
@@ -879,12 +881,12 @@ public class basic extends AppCompatActivity {
                         textViewAnswer.setText(a);
                         startGame(1, moves_in_level, goal_in_level, result_in_game);
                     } else if ((moves_in_level == 0) && (result_in_game == goal_in_level)) {
-                        textViewAnswer.setText("You WIN");
-                        textViewAnswer.setText("You WIN");
+                        textViewAnswer.setText(winn);
+                        textViewAnswer.setText(winn);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setCancelable(false);
                         dialog.setTitle("CONGRATULATIONS");
-                        dialog.setMessage("YOU WIN");
+                        dialog.setMessage(winn);
                         dialog.setPositiveButton("Next Level", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -897,11 +899,11 @@ public class basic extends AppCompatActivity {
                     moves_in_level = moves_in_level - 1;
                     result_in_game = result_in_game * 4;
                     if ((moves_in_level == 0) && (result_in_game != goal_in_level)) {
-                        textViewAnswer.setText("You Loose");
+                        textViewAnswer.setText(loose);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setTitle("OOPS Better Luck Next Time ");
                         dialog.setCancelable(false);
-                        dialog.setMessage("YOU LOOSE");
+                        dialog.setMessage(loose);
                         dialog.setPositiveButton("PLAY AGAIN", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -914,11 +916,11 @@ public class basic extends AppCompatActivity {
                         textViewAnswer.setText(a);
                         startGame(2, moves_in_level, 4, result_in_game);
                     } else if ((moves_in_level == 0) && (result_in_game == goal_in_level)) {
-                        textViewAnswer.setText("You WIN");
+                        textViewAnswer.setText(winn);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setCancelable(false);
                         dialog.setTitle("CONGRATULATIONS");
-                        dialog.setMessage("YOU WIN");
+                        dialog.setMessage(winn);
                         dialog.setPositiveButton("Next Level", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -933,11 +935,11 @@ public class basic extends AppCompatActivity {
                     moves_in_level = moves_in_level - 1;
                     result_in_game = result_in_game + 3;
                     if ((moves_in_level == 0) && (result_in_game != goal_in_level)) {
-                        textViewAnswer.setText("You Loose");
+                        textViewAnswer.setText(loose);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setTitle("OOPS Better Luck Next Time ");
                         dialog.setCancelable(false);
-                        dialog.setMessage("YOU LOOSE");
+                        dialog.setMessage(loose);
                         dialog.setPositiveButton("PLAY AGAIN", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -950,11 +952,11 @@ public class basic extends AppCompatActivity {
                         textViewAnswer.setText(a);
                         startGame(3, moves_in_level, 12, result_in_game);
                     } else if ((moves_in_level == 0) && (result_in_game == goal_in_level)) {
-                        textViewAnswer.setText("You WIN");
+                        textViewAnswer.setText(winn);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setTitle("CONGRATULATIONS");
                         dialog.setCancelable(false);
-                        dialog.setMessage("YOU WIN");
+                        dialog.setMessage(winn);
                         dialog.setPositiveButton("Next Level", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -969,11 +971,11 @@ public class basic extends AppCompatActivity {
                     moves_in_level = moves_in_level - 1;
                     result_in_game = result_in_game * 10;
                     if ((moves_in_level == 0) && (result_in_game != goal_in_level)) {
-                        textViewAnswer.setText("You Loose");
+                        textViewAnswer.setText(loose);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setTitle("OOPS Better Luck Next Time ");
                         dialog.setCancelable(false);
-                        dialog.setMessage("YOU LOOSE");
+                        dialog.setMessage(loose);
                         dialog.setPositiveButton("PLAY AGAIN", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -986,11 +988,11 @@ public class basic extends AppCompatActivity {
                         textViewAnswer.setText(a);
                         startGame(4, moves_in_level, 404, result_in_game);
                     } else if ((moves_in_level == 0) && (result_in_game == goal_in_level)) {
-                        textViewAnswer.setText("You WIN");
+                        textViewAnswer.setText(winn);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setTitle("CONGRATULATIONS");
                         dialog.setCancelable(false);
-                        dialog.setMessage("YOU WIN");
+                        dialog.setMessage(winn);
                         dialog.setPositiveButton("Next Level", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -1005,11 +1007,11 @@ public class basic extends AppCompatActivity {
                     moves_in_level = moves_in_level - 1;
                     result_in_game = result_in_game * 2;
                     if ((moves_in_level == 0) && (result_in_game != goal_in_level)) {
-                        textViewAnswer.setText("You Loose");
+                        textViewAnswer.setText(loose);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setTitle("OOPS Better Luck Next Time ");
                         dialog.setCancelable(false);
-                        dialog.setMessage("YOU LOOSE");
+                        dialog.setMessage(loose);
                         dialog.setPositiveButton("PLAY AGAIN", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -1022,11 +1024,11 @@ public class basic extends AppCompatActivity {
                         textViewAnswer.setText(a);
                         startGame(5, moves_in_level, 50, result_in_game);
                     } else if ((moves_in_level == 0) && (result_in_game == goal_in_level)) {
-                        textViewAnswer.setText("You WIN");
+                        textViewAnswer.setText(winn);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setCancelable(false);
                         dialog.setTitle("CONGRATULATIONS");
-                        dialog.setMessage("YOU WIN");
+                        dialog.setMessage(winn);
                         dialog.setPositiveButton("Next Level", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -1040,11 +1042,11 @@ public class basic extends AppCompatActivity {
                     moves_in_level = moves_in_level - 1;
                     result_in_game = result_in_game - 9;
                     if ((moves_in_level == 0) && (result_in_game != goal_in_level)) {
-                        textViewAnswer.setText("You Loose");
+                        textViewAnswer.setText(loose);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setTitle("OOPS Better Luck Next Time ");
                         dialog.setCancelable(false);
-                        dialog.setMessage("YOU LOOSE");
+                        dialog.setMessage(loose);
                         dialog.setPositiveButton("PLAY AGAIN", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -1057,11 +1059,11 @@ public class basic extends AppCompatActivity {
                         textViewAnswer.setText(a);
                         startGame(6, moves_in_level, 23, result_in_game);
                     } else if ((moves_in_level == 0) && (result_in_game == goal_in_level)) {
-                        textViewAnswer.setText("You WIN");
+                        textViewAnswer.setText(winn);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setTitle("CONGRATULATIONS");
                         dialog.setCancelable(false);
-                        dialog.setMessage("YOU WIN");
+                        dialog.setMessage(winn);
                         dialog.setPositiveButton("Next Level", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -1076,11 +1078,11 @@ public class basic extends AppCompatActivity {
                     moves_in_level = moves_in_level - 1;
                     result_in_game = result_in_game * 9;
                     if ((moves_in_level == 0) && (result_in_game != goal_in_level)) {
-                        textViewAnswer.setText("You Loose");
+                        textViewAnswer.setText(loose);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setTitle("OOPS Better Luck Next Time ");
                         dialog.setCancelable(false);
-                        dialog.setMessage("YOU LOOSE");
+                        dialog.setMessage(loose);
                         dialog.setPositiveButton("PLAY AGAIN", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -1093,11 +1095,11 @@ public class basic extends AppCompatActivity {
                         textViewAnswer.setText(a);
                         startGame(7, moves_in_level, 2, result_in_game);
                     } else if ((moves_in_level == 0) && (result_in_game == goal_in_level)) {
-                        textViewAnswer.setText("You WIN");
+                        textViewAnswer.setText(winn);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setTitle("CONGRATULATIONS");
                         dialog.setCancelable(false);
-                        dialog.setMessage("YOU WIN");
+                        dialog.setMessage(winn);
                         dialog.setPositiveButton("Next Level", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -1111,11 +1113,11 @@ public class basic extends AppCompatActivity {
                     moves_in_level = moves_in_level - 1;
                     result_in_game = result_in_game * 11;
                     if ((moves_in_level == 0) && (result_in_game != goal_in_level)) {
-                        textViewAnswer.setText("You Loose");
+                        textViewAnswer.setText(loose);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setTitle("OOPS Better Luck Next Time ");
                         dialog.setCancelable(false);
-                        dialog.setMessage("YOU LOOSE");
+                        dialog.setMessage(loose);
                         dialog.setPositiveButton("PLAY AGAIN", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -1128,11 +1130,11 @@ public class basic extends AppCompatActivity {
                         textViewAnswer.setText(a);
                         startGame(8, moves_in_level, 100, result_in_game);
                     } else if ((moves_in_level == 0) && (result_in_game == goal_in_level)) {
-                        textViewAnswer.setText("You WIN");
+                        textViewAnswer.setText(winn);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setCancelable(false);
                         dialog.setTitle("CONGRATULATIONS");
-                        dialog.setMessage("YOU WIN");
+                        dialog.setMessage(winn);
                         dialog.setPositiveButton("Next Level", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -1147,10 +1149,10 @@ public class basic extends AppCompatActivity {
                     moves_in_level = moves_in_level - 1;
                     result_in_game = result_in_game + 2;
                     if ((moves_in_level == 0) && (result_in_game != goal_in_level)) {
-                        textViewAnswer.setText("You Loose");
+                        textViewAnswer.setText(loose);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setTitle("OOPS Better Luck Next Time ");
-                        dialog.setMessage("YOU LOOSE");
+                        dialog.setMessage(loose);
                         dialog.setCancelable(false);
                         dialog.setPositiveButton("PLAY AGAIN", new DialogInterface.OnClickListener() {
                             @Override
@@ -1164,11 +1166,11 @@ public class basic extends AppCompatActivity {
                         textViewAnswer.setText(a);
                         startGame(9, moves_in_level, 64, result_in_game);
                     } else if ((moves_in_level == 0) && (result_in_game == goal_in_level)) {
-                        textViewAnswer.setText("You WIN");
+                        textViewAnswer.setText(winn);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setCancelable(false);
                         dialog.setTitle("CONGRATULATIONS");
-                        dialog.setMessage("YOU WIN");
+                        dialog.setMessage(winn);
                         dialog.setPositiveButton("Next Level", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -1183,10 +1185,10 @@ public class basic extends AppCompatActivity {
                     moves_in_level = moves_in_level - 1;
                     result_in_game = result_in_game * 2;
                     if ((moves_in_level == 0) && (result_in_game != goal_in_level)) {
-                        textViewAnswer.setText("You Loose");
+                        textViewAnswer.setText(loose);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setTitle("OOPS Better Luck Next Time ");
-                        dialog.setMessage("YOU LOOSE");
+                        dialog.setMessage(loose);
                         dialog.setCancelable(false);
                         dialog.setPositiveButton("PLAY AGAIN", new DialogInterface.OnClickListener() {
                             @Override
@@ -1199,7 +1201,7 @@ public class basic extends AppCompatActivity {
                         textViewAnswer.setText(a);
                         startGame(10, moves_in_level, 100, result_in_game);
                     } else if ((moves_in_level == 0) && (result_in_game == goal_in_level)) {
-                        textViewAnswer.setText("You WIN");
+                        textViewAnswer.setText(winn);
                         AlertDialog.Builder dialog = new AlertDialog.Builder(basic.this);
                         dialog.setCancelable(false);
                         dialog.setTitle("CONGRATULATIONS");
