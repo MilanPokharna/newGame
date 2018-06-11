@@ -10,7 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".activity.MainActivity" android:screenOrientation="userPortrait"
+            android:name=".activity.MainActivity"
+            android:screenOrientation="userPortrait"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,19 +19,29 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.HomeActivity" android:screenOrientation="userPortrait" />
         <activity
-            android:parentActivityName=".activity.HomeActivity"
+            android:name=".activity.HomeActivity"
+            android:screenOrientation="userPortrait" />
+        <activity
             android:name=".activity.Main2Activity"
             android:label="Learn"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"  android:screenOrientation="userPortrait">
-
-            <meta-data android:name="android.support.PARENT_ACTIVITY"
-                android:value=".activity.HomeActivity"/>
+            android:parentActivityName=".activity.HomeActivity"
+            android:screenOrientation="userPortrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.HomeActivity" />
         </activity>
-        <activity android:name=".activity.TrignoActivity"  android:screenOrientation="userPortrait"></activity>
-        <activity android:name=".activity.basic"  android:screenOrientation="userPortrait"/>
-        <activity android:name=".activity.object"  android:screenOrientation="userPortrait"/>
+        <activity
+            android:name=".activity.TrignoActivity"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".activity.basic"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".activity.object"
+            android:screenOrientation="userPortrait" />
+        <activity android:name=".activity.Main3Activity"></activity>
     </application>
 
 </manifest>
