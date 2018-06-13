@@ -47,5 +47,16 @@
     <string name="S5content2">2.   Set of all points in a plane that are given at a distance from a particular point known as CENTRE.</string>
     <string name="S5content3">3.   Curve that divides the plane into two regions.</string>
     <string name="S5content4">AREA = π X radius X radius</string>
+    <string name="start_trigo">Start Trigo</string>
+    <string name="learn_objects">Learn Objects</string>
+    <string name="basic_maths">Basic Maths</string>
+    <string name="math_mania">Math Mania</string>
+    <string name="todo">basicmath</string>
+    <string name="learn">Learn</string>
+    <string name="Learning">learn</string>
+    <string name="fun_with_learning">Fun with learning</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="study">Study Maths</string>
 
 </resources>

@@ -17,7 +17,6 @@
             android:orientation="vertical"
             android:paddingBottom="20dp">
 
-            //addition
             <LinearLayout
                 android:id="@+id/add_layout"
                 android:padding="@dimen/padding"

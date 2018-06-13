@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
-    android:backgroundTint="#E4DCCF"
-    android:background="#E4DCCF"
-    >
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    android:weightSum="2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
     <include
         layout="@layout/included_main"
-        android:id="@+id/included"
-        />
+        android:id="@+id/included"/>
+
+    </LinearLayout>
 
     <RelativeLayout
-
+        android:layout_weight="1"
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+        android:layout_height="match_parent">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -36,6 +38,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/seletor_botao"
                 android:id="@+id/setting"
+                android:clickable="false"
                 android:backgroundTint="#cec6c6"
                 android:cropToPadding="true"
                 android:scaleType="fitCenter" />
@@ -63,9 +66,7 @@
                 android:textSize="30dp"
                 android:backgroundTint="#cec6c6"
                 android:id="@+id/b3"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
+                android:clickable="false" />
 
         </LinearLayout>
 
@@ -83,19 +84,20 @@
                 android:layout_width="@dimen/width"
                 android:layout_height="@dimen/height"
                 android:backgroundTint="#cec6c6"
+                android:clickable="false"
                 android:background="@drawable/seletor_botao"
                 android:id="@+id/b1"
                 android:layout_weight="1"/>
 
             <Button
+                android:layout_margin="6dp"
+                android:layout_weight="1"
                 android:layout_width="@dimen/width"
                 android:layout_height="@dimen/height"
                 android:background="@drawable/seletor_botao1"
                 android:id="@+id/black1"
-                android:textSize="25sp"
                 android:textColor="#FFFFFF"
-                android:layout_weight="1"
-                android:layout_margin="6dp"
+                android:textSize="25sp"
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true" />
 
@@ -107,10 +109,8 @@
                 android:id="@+id/bclear"
                 android:layout_weight="1"
                 android:layout_margin="6dp"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentEnd="true"
-                android:text="CLR"
+                android:clickable="false"
+                android:backgroundTint="#cec6c6"
                 android:textSize="30dp"
                 android:textColor="#ffff"/>
 
@@ -128,7 +128,7 @@
             android:layout_alignParentStart="true">
             <Button
                 android:layout_margin="6dp"
-
+                android:clickable="false"
                 android:layout_width="@dimen/width"
                 android:backgroundTint="#cec6c6"
                 android:layout_height="@dimen/height"
@@ -154,16 +154,13 @@
                 android:layout_width="@dimen/width"
                 android:layout_height="@dimen/height"
                 android:background="@drawable/seletor_botao"
-
+                android:clickable="false"
                 android:backgroundTint="#cec6c6"
-                android:id="@+id/b4"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentEnd="true" />
+                android:id="@+id/b4" />
 
 
 
         </LinearLayout>
     </RelativeLayout>
 
-</FrameLayout>
+</LinearLayout>
