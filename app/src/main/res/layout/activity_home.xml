@@ -37,7 +37,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight=".4"
+            android:layout_weight=".5"
             android:weightSum="1"
             android:background="@drawable/seletor_botao6"
             android:onClick="easylevel">
@@ -62,10 +62,9 @@
             <ProgressBar
                 android:layout_weight="0.05"
                 android:id="@+id/simpleProgressBar"
-                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                style="@style/MyProgressBar"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_centerHorizontal="true"
                 android:max="100"
                 android:progress="50"
                 android:progressDrawable="@drawable/custom_progress" />
@@ -182,6 +181,7 @@
             android:layout_height="0dp"
             android:layout_weight=".5"
             android:weightSum="1"
+            android:id="@+id/learnbook"
             android:background="@drawable/seletor_botao2"
             >
 
@@ -202,16 +202,6 @@
                 style="@style/menu_buttons" />
 
         </LinearLayout>
-                <ProgressBar
-                    android:layout_weight="0.05"
-                    android:id="@+id/simpleProgressBar4"
-                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_centerHorizontal="true"
-                    android:max="100"
-                    android:progress="50"
-                    android:progressDrawable="@drawable/custom_progress" />
 
             </LinearLayout>
 
