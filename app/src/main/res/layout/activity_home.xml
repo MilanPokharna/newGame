@@ -59,6 +59,27 @@
                 style="@style/menu_buttons"/>
 
         </LinearLayout>
+
+            <!--<com.daimajia.numberprogressbar.NumberProgressBar-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/simpleProgressBar2"-->
+                <!--tools:progress_unreached_color="#CCCCCC"-->
+                <!--tools:progress_reached_color="#3498DB"-->
+
+                <!--tools:progress_unreached_bar_height="0.75dp"-->
+                <!--tools:progress_reached_bar_height="1.5dp"-->
+
+                <!--tools:progress_text_size="10sp"-->
+                <!--tools:progress_text_color="#3498DB"-->
+                <!--tools:progress_text_offset="1dp"-->
+                <!--tools:progress_text_visibility="visible"-->
+
+                <!--tools:progress_max="100"-->
+                <!--tools:progress_current="80"-->
+                <!--/>-->
+           
+           
             <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
                 android:layout_weight="0.05"
                 android:layout_marginTop="3dp"
