@@ -59,16 +59,21 @@
                 style="@style/menu_buttons"/>
 
         </LinearLayout>
-            <ProgressBar
+            <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
                 android:layout_weight="0.05"
+                android:layout_marginTop="3dp"
                 android:id="@+id/simpleProgressBar"
-                style="@style/MyProgressBar"
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:max="100"
-                android:progress="50"
-                android:progressDrawable="@drawable/custom_progress" />
-
+                android:layout_height="15dp"
+                android:layout_centerHorizontal="true"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                app:rcMax="100"
+                app:rcProgress="100"
+                app:rcRadius="10dp"
+                app:rcReverse="false"
+                app:rcBackgroundPadding="3dp"
+                app:rcProgressColor="#38c0ae"
+                app:rcBackgroundColor="#757575"/>
         </LinearLayout>
         <LinearLayout
             android:orientation="vertical"
@@ -105,17 +110,21 @@
                 style="@style/menu_buttons"/>
 
         </LinearLayout>
-        <ProgressBar
+            <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
             android:layout_weight="0.05"
+            android:layout_marginTop="3dp"
             android:id="@+id/simpleProgressBar2"
-            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="15dp"
             android:layout_centerHorizontal="true"
-            android:max="100"
-            android:progress="50"
-            android:progressDrawable="@drawable/custom_progress" />
-
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            app:rcMax="100"
+            app:rcProgress="100"
+            app:rcRadius="10dp"
+            app:rcReverse="false"
+            app:rcBackgroundPadding="3dp"
+            app:rcProgressColor="#38c0ae"
+            app:rcBackgroundColor="#757575"/>
     </LinearLayout>
 
         <LinearLayout
@@ -153,16 +162,21 @@
                 style="@style/menu_buttons"/>
 
         </LinearLayout>
-            <ProgressBar
+            <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
                 android:layout_weight="0.05"
+                android:layout_marginTop="3dp"
                 android:id="@+id/simpleProgressBar3"
-                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
+                android:layout_height="15dp"
                 android:layout_centerHorizontal="true"
-                android:max="100"
-                android:progress="50"
-                android:progressDrawable="@drawable/custom_progress" />
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                app:rcMax="100"
+                app:rcProgress="100"
+                app:rcRadius="10dp"
+                app:rcReverse="false"
+                app:rcBackgroundPadding="3dp"
+                app:rcProgressColor="#38c0ae"
+                app:rcBackgroundColor="#757575"/>
 
         </LinearLayout>
 
