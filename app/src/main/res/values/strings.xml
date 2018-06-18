@@ -58,5 +58,29 @@
     <string name="todo1">TODO</string>
     <string name="todo2">TODO</string>
     <string name="study">Study Maths</string>
+    <string name="score_board">Score Board</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_the_number_for_table">Enter the Number range under 199</string>
+    <string name="hints">Hints</string>
+    <string name="flag_1">0 + 1 =1 "\n" 1+2 =3 "\n" 3 * 4 = 12 (Solved) </string>
+    <string name="flag_2">3 *4 =12 "\n" 12 +4 =16 "\n" 16 / 4 = 4(Solved) </string>
+
+    <string name="flag_3"> 0+3 =3 "\n" 3 * 3 =9 "\n " 9 + 3 = 12 (solved)</string>
+
+    <string name="flag_4"> 0 +8 = 8 "\n" 8 * 10 * 1 = 800 "\n" 800 + 8 = 808 "\n" 808 / 2 = 404(Solved)</string>
+    <string name="flag_5">10 * 3 = 30 "\n"  30 – 5 = 25 "\n" 25 *2 = 50(solved) </string>
+    <string name="flag_6"> 171 – 9 =162 "\n" 162 * 2 =324 " 324 /10 = 32 "\n" 32 – 9 = 23(Solved) </string>
+    <string name="flag_7">3 * 9 = 27 "\n" 27 /10 = 2(solved) </string>
+    <string name="flag_8"></string>
+    <string name="flag_9"> Press +8 "\n" then Press 2 times *10 "\n" then press +8 then Press /2</string>
+    <string name="flag_10"> Press +8 "\n" then Press 2 times *10 "\n" then press +8 then Press /2</string>
+    <string name="individual_level_performance">Individual level performance</string>
+
 
 </resources>

@@ -9,12 +9,17 @@
     </style>
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" >
-        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/colorappbar</item>
     </style>
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
-
+    <style name="Theme.CustomTranslucent" parent="android:style/Theme.Translucent">
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.5</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
 
     <style name="welcome_buttons">
         <item name="android:textColor">#6ec8f5</item>
@@ -29,15 +34,19 @@
         <item name="android:textColor">#000</item>
         <item name="android:textSize">26sp</item>
         <item name="android:fontFamily">@font/earworm</item>
-<item name="android:gravity">center</item>
+        <item name="android:gravity">center</item>
     </style>
 
-    <style name="MyProgressBar" parent="@style/Widget.AppCompat.ProgressBar.Horizontal">
-        <item name="android:progressBackgroundTint">#69f0ae</item>
-        <item name="android:progressTint">#1cb738</item>
-        <item name="android:minWidth">200dp</item>
-    </style>
+    <style name="ThemeOverlay">as</style>
 
+    <style name="Theme">abs</style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+    </style>
 
 
 </resources>
