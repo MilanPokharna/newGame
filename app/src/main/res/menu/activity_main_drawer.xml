@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/dashboard"
+            android:icon="@drawable/ic_board_black_24dp"
+            android:title="ScoreBoard" />
+          <item
+            android:id="@+id/nav_scoreboard"
+            android:icon="@drawable/dashboard"
+            android:title="Dashboard" />
+         </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_sound"
+                android:icon="@drawable/ic_volume_up_black_24dp"
+                android:title="Sound" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout_new_black_24dp"
+                android:title="Login"
+                />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "422282095691",
+    "firebase_url": "https://newgame-8d6a2.firebaseio.com",
+    "project_id": "newgame-8d6a2",
+    "storage_bucket": "newgame-8d6a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422282095691:android:2c1580c2400f0394",
+        "android_client_info": {
+          "package_name": "com.lenovo.newgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422282095691-sjv62g06aciaesndc8626vdh39h5cspf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lenovo.newgame",
+            "certificate_hash": "3a4965fa62ce963260b2f58e098548d81f317c17"
+          }
+        },
+        {
+          "client_id": "422282095691-ocnb15scouevbvm2l05cp30a2ej0ve5r.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "422282095691-ocnb15scouevbvm2l05cp30a2ej0ve5r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYUWieZ0HJYVrUga3QCXlRovgbZ2xXUyw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422282095691-ocnb15scouevbvm2l05cp30a2ej0ve5r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
