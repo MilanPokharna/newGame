@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Math Mania</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="slide_1_title"> hi Basic Maths</string>
+    <string name="slide_1_desc">Have fun and explore the basic mathematical operations with us..!!!</string>
+
+    <string name="slide_2_title">Hindi objects</string>
+    <string name="slide_2_desc">Learning the simple geometrical shapes and their formulae.</string>
+
+    <string name="slide_3_title"> hi Start Trigonometry</string>
+    <string name="slide_3_desc">Let\'s dive in to the world of trigonometry.</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <string name="app_name1">SmallIntendApp</string>
+    <string name="shape1"> hi PARALLELOGRAM</string>
+    <string name="shape2"> hi RECTANGLE</string>
+    <string name="shape3"> hi SQUARE</string>
+    <string name="shape4">hi TRIANGLE</string>
+    <string name="shape5"> hi CIRCLE</string>
+    <string name="S1content1">1.   Quadrilateral with two pairs of parallel sides.</string>
+    <string name="S1content2">2.   Opposite sides are equal</string>
+    <string name="S1content3">3.   Opposite angles are equal.</string>
+    <string name="S1content4">AREA = BASE X HEIGHT</string>
+    <string name="S2content1">1.   Parallelogram</string>
+    <string name="S2content2">2.   All angles are equal to 90. </string>
+    <string name="S2content3">AREA = LENGTH X BREADTH</string>
+    <string name="S2content4">For eg. , in the above figure</string>
+    <string name="S2content6">Therefore , Area = 4 x 2 = 8 units.</string>
+    <string name="S2content5">Length = 4 units and Breadth = 2 units</string>
+
+    <string name="S3content1">1.   Parallelogram.</string>
+    <string name="S3content2">2.   All angles are equal to 90.</string>
+    <string name="S3content3">3.   All sides are equal.</string>
+    <string name="S3content4">AREA = SIDE x SIDE</string>
+    <string name="S4content1">1.   Polygon.</string>
+    <string name="S4content2">2.   Three edges.</string>
+    <string name="S4content3">3.   Three vertices.</string>
+    <string name="S4content4">4.   They can be of different types such as : Isoceles triangle , equilateral triangle , scalene triangle etc.</string>
+    <string name="S4content5">AREA = 0.5 x BASE x HEIGHT</string>
+
+    <string name="S5content1">1.   Simple closed shape.</string>
+    <string name="S5content2">2.   Set of all points in a plane that are given at a distance from a particular point known as CENTRE.</string>
+    <string name="S5content3">3.   Curve that divides the plane into two regions.</string>
+    <string name="S5content4">AREA = π X radius X radius</string>
+    <string name="start_trigo">hi Start Trigo</string>
+    <string name="learn_objects">hi Learn Objects</string>
+    <string name="basic_maths">hi Basic Maths</string>
+    <string name="math_mania">ji Math Mania</string>
+    <string name="todo">basicmath</string>
+    <string name="learn">hi Learn</string>
+    <string name="Learning">learn</string>
+    <string name="fun_with_learning">Fun with learning</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="study">Study Maths</string>
+
+</resources>

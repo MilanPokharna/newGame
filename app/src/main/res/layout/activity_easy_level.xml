@@ -22,22 +22,26 @@
         android:id="@+id/included"
         />
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_margin="8dp"
+        android:weightSum="3"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:id="@+id/r3"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
             android:weightSum="3"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentStart="true">
+            >
 
             <ImageButton
-                android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height"
-                android:layout_margin="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
                 android:clickable="false"
                 android:layout_weight="1"
                 android:backgroundTint="#cec6c6"
@@ -48,9 +52,9 @@
 
 
             <Button
-                android:layout_margin="6dp"
-                android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:background="@drawable/seletor_botao1"
                 android:layout_weight="1"
                 android:textSize="30sp"
@@ -59,54 +63,53 @@
 
 
             <Button
-                android:layout_margin="6dp"
-                android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height"
-                android:background="@drawable/seletor_botao"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/seletor_botao6"
                 android:layout_weight="1"
-                android:textSize="30sp"
-                android:clickable="false"
-                android:backgroundTint="#cec6c6"
-                android:id="@+id/button_9" />
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:id="@+id/button_clear" />
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:id="@+id/r1"
-            android:layout_above="@+id/r2"
-            android:layout_alignParentStart="true">
+            android:layout_margin="8dp"
+            android:layout_weight="1">
 
             <Button
-                android:layout_margin="6dp"
-                android:layout_width="@dimen/width"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
                 android:clickable="false"
-                android:layout_height="@dimen/height"
+                android:layout_height="match_parent"
                 android:backgroundTint="#cec6c6"
                 android:background="@drawable/seletor_botao"
                 android:id="@+id/button_1"
                 android:layout_weight="1"/>
 
             <Button
-                android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:background="@drawable/seletor_botao1"
                 android:id="@+id/button_2"
                 android:textSize="30sp"
                 android:textColor="#FFFFFF"
                 android:layout_weight="1"
-                android:layout_margin="6dp" />
+                android:layout_margin="8dp" />
 
 
             <Button
-                android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:background="@drawable/seletor_botao2"
-                android:id="@+id/button_clear"
+                android:id="@+id/button_9"
                 android:layout_weight="1"
                 android:clickable="false"
-                android:layout_margin="6dp"
+                android:layout_margin="8dp"
                 android:backgroundTint="#cec6c6"
                 android:textSize="25sp"
                 android:textColor="#ffff"/>
@@ -116,43 +119,42 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:id="@+id/r2"
-            android:layout_above="@+id/r3"
-            android:layout_alignParentStart="true">
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            >
             <Button
-                android:layout_margin="6dp"
+                android:layout_margin="8dp"
                 android:clickable="false"
-                android:layout_width="@dimen/width"
+                android:layout_width="match_parent"
                 android:backgroundTint="#cec6c6"
-                android:layout_height="@dimen/height"
+                android:layout_height="match_parent"
                 android:background="@drawable/seletor_botao"
                 android:id="@+id/button_4"
                 android:layout_weight="1"/>
 
             <Button
-                android:layout_margin="6dp"
+                android:layout_margin="8dp"
                 android:layout_weight="1"
-                android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:background="@drawable/seletor_botao1"
                 android:id="@+id/button_5"
                 android:textColor="#FFFFFF"
                 android:textSize="30sp"/>
             <Button
-                android:layout_margin="6dp"
+                android:layout_margin="8dp"
                 android:layout_weight="1"
-                android:layout_width="@dimen/width"
-                android:layout_height="@dimen/height"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:clickable="false"
                 android:background="@drawable/seletor_botao"
                 android:backgroundTint="#cec6c6"
                 android:id="@+id/button_6" />
 
-
-
         </LinearLayout>
-    </RelativeLayout>
+    </LinearLayout>
 
 </LinearLayout>
 </FrameLayout>
