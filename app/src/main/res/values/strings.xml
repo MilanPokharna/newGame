@@ -77,9 +77,9 @@
     <string name="flag_5">10 * 3 = 30 "\n"  30 – 5 = 25 "\n" 25 *2 = 50(solved) </string>
     <string name="flag_6"> 171 – 9 =162 "\n" 162 * 2 =324 " 324 /10 = 32 "\n" 32 – 9 = 23(Solved) </string>
     <string name="flag_7">3 * 9 = 27 "\n" 27 /10 = 2(solved) </string>
-    <string name="flag_8"></string>
-    <string name="flag_9"> Press +8 "\n" then Press 2 times *10 "\n" then press +8 then Press /2</string>
-    <string name="flag_10"> Press +8 "\n" then Press 2 times *10 "\n" then press +8 then Press /2</string>
+    <string name="flag_8">99*11 = 1089 "\n"1089/10 = 108 "\n" 108-8 = 100 (Solved) </string>
+    <string name="flag_9"> 2+2 = 4 "\n" 4*4 = 16 "\n" 16*4 = 64 (Solved)</string>
+    <string name="flag_10"> 800 * 2 = 1600 "\n" 1600/4 = 400 "\n" 400/4 = 100 (Solved) </string>
     <string name="individual_level_performance">Individual level performance</string>
 
 
