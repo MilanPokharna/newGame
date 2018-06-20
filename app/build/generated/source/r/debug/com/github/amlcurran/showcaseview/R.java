@@ -49,7 +49,7 @@ public final class R {
         public static final int showcase_button = 0x7f0c0051;
     }
     public static final class string {
-        public static final int ok = 0x7f10006c;
+        public static final int ok = 0x7f10006b;
     }
     public static final class style {
         public static final int ShowcaseButton = 0x7f1100cd;
