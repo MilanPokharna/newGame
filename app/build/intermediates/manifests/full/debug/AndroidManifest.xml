@@ -65,6 +65,7 @@
         <activity android:name="com.lenovo.newgame.activity.Scoreborad" />
         <activity android:name="com.lenovo.newgame.activity.Dashboard_Activity" />
         <activity android:name="com.lenovo.newgame.game_2048" />
+        <activity android:name="com.lenovo.newgame.quiz" />
 
         <meta-data
             android:name="android.support.VERSION"

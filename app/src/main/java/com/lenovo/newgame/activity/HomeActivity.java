@@ -47,6 +47,7 @@ import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.lenovo.newgame.R;
 import com.lenovo.newgame.game_2048;
+import com.lenovo.newgame.quiz;
 
 import java.util.Locale;
 
@@ -173,11 +174,11 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         user_name =(TextView)view.findViewById( R.id.user_name );
         user_email = (TextView)view.findViewById( R.id.email );
 
-
+//        navigationView.getMenu().getItem(2).getSubMenu().getItem(0).setIcon(R.drawable.logo_2048);
         if (soundflag == 1)
-            navigationView.getMenu().getItem(2).getSubMenu().getItem(1).setIcon(R.drawable.ic_volume_up_black_24dp);
+            navigationView.getMenu().getItem(3).getSubMenu().getItem(1).setIcon(R.drawable.ic_volume_up_black_24dp);
         else
-            navigationView.getMenu().getItem(2).getSubMenu().getItem(1).setIcon(R.drawable.ic_volume_off_black_24dp);
+            navigationView.getMenu().getItem(3).getSubMenu().getItem(1).setIcon(R.drawable.ic_volume_off_black_24dp);
 
         if (user != null) {
 //            mprogress.show();
@@ -224,11 +225,17 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
 
 
         }
-//        else if(id == R.id.g)
-//        {
-//            Intent i =new Intent(HomeActivity.this, game_2048.class);
-//            startActivity(i);
-//        }
+        else if(id == R.id.game)
+        {
+            Intent i =new Intent(HomeActivity.this, game_2048.class);
+            startActivity(i);
+        }
+        else if(id == R.id.nav)
+        {
+            Intent i =new Intent(HomeActivity.this, quiz.class);
+            startActivity(i);
+        }
+
         else if (id == R.id.nav_share) {
 
             Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);

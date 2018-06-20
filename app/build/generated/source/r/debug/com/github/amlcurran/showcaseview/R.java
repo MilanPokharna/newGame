@@ -40,9 +40,9 @@ public final class R {
         public static final int hand = 0x7f08009e;
     }
     public static final class id {
-        public static final int showcase_button = 0x7f0a0105;
-        public static final int showcase_sub_text = 0x7f0a0106;
-        public static final int showcase_title_text = 0x7f0a0107;
+        public static final int showcase_button = 0x7f0a0107;
+        public static final int showcase_sub_text = 0x7f0a0108;
+        public static final int showcase_title_text = 0x7f0a0109;
     }
     public static final class layout {
         public static final int handy = 0x7f0c0037;

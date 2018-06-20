@@ -38,12 +38,12 @@ public final class R {
         public static final int round_corner_progress_bar_secondary_progress_default = 0x7f060076;
     }
     public static final class id {
-        public static final int iv_progress_icon = 0x7f0a00ac;
-        public static final int layout_background = 0x7f0a00af;
-        public static final int layout_progress = 0x7f0a00b0;
-        public static final int layout_progress_holder = 0x7f0a00b1;
-        public static final int layout_secondary_progress = 0x7f0a00b2;
-        public static final int tv_progress = 0x7f0a013c;
+        public static final int iv_progress_icon = 0x7f0a00ad;
+        public static final int layout_background = 0x7f0a00b0;
+        public static final int layout_progress = 0x7f0a00b1;
+        public static final int layout_progress_holder = 0x7f0a00b2;
+        public static final int layout_secondary_progress = 0x7f0a00b3;
+        public static final int tv_progress = 0x7f0a013e;
     }
     public static final class layout {
         public static final int layout_icon_round_corner_progress_bar = 0x7f0c003a;

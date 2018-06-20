@@ -4,16 +4,16 @@
         "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\fb67de93698e27c0cb19ed8c5bc185f8\\res\\drawable-mdpi-v4\\googleg_disabled_color_18.png"
     },
     {
-        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_learn.png.flat",
+        "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\drawable\\learn.png"
     },
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media.xml.flat",
         "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\c33bdd2255fbd2523108ab6fd49e1108\\res\\layout\\notification_template_big_media.xml"
     },
     {
-        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_learn.png.flat",
-        "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\drawable\\learn.png"
+        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
@@ -1494,6 +1494,10 @@
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\abea0dcad9edde63146d89199a6ffb27\\res\\drawable-mdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_quiztime.png.flat",
+        "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\drawable\\quiztime.png"
     },
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",

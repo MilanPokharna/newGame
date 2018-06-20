@@ -19,6 +19,37 @@
 
     </group>
 
+    <!--<group android:checkableBehavior="single">-->
+        <!--<item-->
+            <!--android:id="@+id/game"-->
+            <!--android:icon="@drawable/dashboard"-->
+            <!--android:title="2048 Game" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav"-->
+            <!--android:icon="@drawable/dashboard"-->
+            <!--android:title="Quiz Game" />-->
+
+        <!--&lt;!&ndash;<item android:id="@+id/g"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:icon="@drawable/logo_2048"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:title="AdditionalGame"/>&ndash;&gt;-->
+
+    <!--</group>-->
+
+
+    <item android:title="Additional Games">
+        <menu>
+            <item
+                android:id="@+id/game"
+                android:icon="@drawable/dashboard"
+                android:title="2048" />
+            <item
+                android:id="@+id/nav"
+                android:icon="@drawable/dashboard"
+                android:title="Quiz Time" />
+        </menu>
+    </item>
+
+
     <item android:title="Settings">
         <menu>
             <item

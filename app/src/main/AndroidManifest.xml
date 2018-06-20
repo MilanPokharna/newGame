@@ -47,7 +47,8 @@
             android:screenOrientation="userPortrait" />
         <activity android:name=".activity.Scoreborad" />
         <activity android:name=".activity.Dashboard_Activity" />
-        <activity android:name=".game_2048"></activity>
+        <activity android:name=".game_2048" />
+        <activity android:name=".quiz" />
     </application>
 
 </manifest>
