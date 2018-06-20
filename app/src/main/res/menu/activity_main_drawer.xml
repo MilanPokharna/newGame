@@ -40,11 +40,11 @@
         <menu>
             <item
                 android:id="@+id/game"
-                android:icon="@drawable/dashboard"
+                android:icon="@drawable/ic_repeat_black_24dp"
                 android:title="2048" />
             <item
                 android:id="@+id/nav"
-                android:icon="@drawable/dashboard"
+                android:icon="@drawable/ic_extension_black_24dp"
                 android:title="Quiz Time" />
         </menu>
     </item>
