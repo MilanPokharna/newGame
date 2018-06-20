@@ -12,7 +12,12 @@
             android:id="@+id/nav_scoreboard"
             android:icon="@drawable/dashboard"
             android:title="Dashboard" />
-         </group>
+
+        <!--<item android:id="@+id/g"-->
+            <!--android:icon="@drawable/logo_2048"-->
+            <!--android:title="AdditionalGame"/>-->
+
+    </group>
 
     <item android:title="Settings">
         <menu>

@@ -46,6 +46,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.lenovo.newgame.R;
+import com.lenovo.newgame.game_2048;
 
 import java.util.Locale;
 
@@ -218,10 +219,17 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
 
             Intent i=new Intent(this,Dashboard_Activity.class);
             startActivity(i);
-        }  else if (id == R.id.nav_scoreboard) {
+        }  else if (id == R.id.nav_scoreboard)
+        {
 
 
-        }  else if (id == R.id.nav_share) {
+        }
+//        else if(id == R.id.g)
+//        {
+//            Intent i =new Intent(HomeActivity.this, game_2048.class);
+//            startActivity(i);
+//        }
+        else if (id == R.id.nav_share) {
 
             Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
             sharingIntent.setType("text/plain");
@@ -251,6 +259,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
             updateUI(user);
 
         }
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
@@ -335,6 +344,11 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
                     }
                 });
     }
+public void game2048(View V){
 
+    Intent i =new Intent(HomeActivity.this, game_2048.class);
+    startActivity(i);
+
+}
 
 }

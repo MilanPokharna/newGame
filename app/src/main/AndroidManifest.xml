@@ -46,7 +46,8 @@
             android:name=".activity.object"
             android:screenOrientation="userPortrait" />
         <activity android:name=".activity.Scoreborad" />
-        <activity android:name=".activity.Dashboard_Activity"></activity>
+        <activity android:name=".activity.Dashboard_Activity" />
+        <activity android:name=".game_2048"></activity>
     </application>
 
 </manifest>
