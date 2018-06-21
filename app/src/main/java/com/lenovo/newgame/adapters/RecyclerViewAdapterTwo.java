@@ -3,6 +3,7 @@ package com.lenovo.newgame.adapters;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
+import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -39,12 +40,12 @@ public class RecyclerViewAdapterTwo extends RecyclerView.Adapter<RecyclerViewAda
 
         public ImageView img;
         public TextView text;
-        public LinearLayout linearLayout;
+        public CardView cardView;
         public ViewHolder(View itemView) {
             super(itemView);
             img = (ImageView)itemView.findViewById(R.id.image);
             text = (TextView)itemView.findViewById(R.id.text);
-            linearLayout = (LinearLayout)itemView.findViewById(R.id.linear);
+            cardView = (CardView)itemView.findViewById(R.id.linear);
         }
     }
 
@@ -52,7 +53,7 @@ public class RecyclerViewAdapterTwo extends RecyclerView.Adapter<RecyclerViewAda
     public void onBindViewHolder(ViewHolder holder, final int position) {
         holder.text.setText(namelist.get(position));
         holder.img.setImageResource(R.drawable.quiztime);
-        holder.linearLayout.setOnClickListener(new View.OnClickListener() {
+        holder.cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(templist.get(position)));
