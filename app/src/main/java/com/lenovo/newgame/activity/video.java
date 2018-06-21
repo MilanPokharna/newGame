@@ -31,26 +31,31 @@ public class video extends AppCompatActivity {
 
     public RecyclerViewAdapterTwo adapterTwo;
     public RecyclerView recyclerView;
-
+    public String value;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_video);
 
-        recyclerView = (RecyclerView)findViewById(R.id.recycleview2);
+        recyclerView = (RecyclerView) findViewById(R.id.recycleview2);
         recyclerView.setHasFixedSize(true);
         final LinearLayoutManager linearLayoutManager = new LinearLayoutManager(video.this);
         recyclerView.setLayoutManager(linearLayoutManager);
-        progressDialog = new ProgressDialog( video.this );
+        progressDialog = new ProgressDialog(video.this);
 
         progressDialog.setMessage("getting the Score ...");
 //
         progressDialog.show();
 
+        preschoolname.add("1");
         preschool.add("https://www.youtube.com/watch?v=xewMVtMk14Q&index=7&list=PLrHqUbddzk2zVIStQGpC-20BHZI5nsbfb");
+        preschoolname.add("2");
         preschool.add("https://www.youtube.com/watch?v=s7cstF8Mz74&list=PLrHqUbddzk2zVIStQGpC-20BHZI5nsbfb&index=2");
+        preschoolname.add("3");
         preschool.add("https://www.youtube.com/watch?v=PjH-hvB_raQ&list=PLrHqUbddzk2zVIStQGpC-20BHZI5nsbfb&index=15");
+        preschoolname.add("4");
         preschool.add("https://www.youtube.com/watch?v=FvcS4BF4cKk&index=22&list=PLrHqUbddzk2zVIStQGpC-20BHZI5nsbfb");
+        preschoolname.add("5");
         preschool.add("https://www.youtube.com/watch?v=KwRsEhdJ3Fo&list=PLrHqUbddzk2zVIStQGpC-20BHZI5nsbfb&index=23");
 
         grade1name.add("Addition Word Problems 1st Grade");
@@ -82,7 +87,11 @@ public class video extends AppCompatActivity {
         grade2.add("https://www.youtube.com/watch?v=3SrN2RdWv1Y&index=26&list=PLrHqUbddzk2wEUyCeoBzj3z_AKPFEh-g5");
 
         Intent i = getIntent();
-        String value = i.getStringExtra("value");
+        value = i.getStringExtra("value");
+        callme(value);
+    }
+
+    private void callme(String value) {
         if (value.equals("preschool"))
         {
             Toast.makeText(this, "preschool", Toast.LENGTH_SHORT).show();
@@ -119,4 +128,4 @@ public class video extends AppCompatActivity {
             Toast.makeText(this, "no selection", Toast.LENGTH_SHORT).show();
         }
     }
-}
+    }

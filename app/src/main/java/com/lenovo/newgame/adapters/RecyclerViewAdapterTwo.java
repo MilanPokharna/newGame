@@ -64,7 +64,7 @@ public class RecyclerViewAdapterTwo extends RecyclerView.Adapter<RecyclerViewAda
 
     @Override
     public int getItemCount() {
-        return 0;
+        return templist.size();
     }
 
 
