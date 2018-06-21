@@ -340,6 +340,10 @@
         "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\abea0dcad9edde63146d89199a6ffb27\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
+        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_video.xml.flat",
+        "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\layout\\activity_video.xml"
+    },
+    {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_repeat_black_24dp.xml.flat",
         "source": "E:\\@PRACTICE\\android\\newGame\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_repeat_black_24dp.xml"
     },
@@ -1716,6 +1720,10 @@
         "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\abea0dcad9edde63146d89199a6ffb27\\res\\layout\\abc_screen_content_include.xml"
     },
     {
+        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\layout_cardviewtwo.xml.flat",
+        "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\layout\\cardviewtwo.xml"
+    },
+    {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_popup_enter.xml.flat",
         "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\abea0dcad9edde63146d89199a6ffb27\\res\\anim\\abc_popup_enter.xml"
     },
@@ -2418,6 +2426,10 @@
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_dashboard.png.flat",
         "source": "E:\\@PRACTICE\\android\\newGame\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\dashboard.png"
+    },
+    {
+        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_video.xml.flat",
+        "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\layout\\fragment_video.xml"
     },
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",

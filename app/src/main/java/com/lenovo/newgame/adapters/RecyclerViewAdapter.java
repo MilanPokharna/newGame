@@ -1,16 +1,15 @@
-package com.lenovo.newgame.activity;
+package com.lenovo.newgame.adapters;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.lenovo.newgame.R;
+import com.lenovo.newgame.activity.Game;
 
 import java.util.List;
 
@@ -54,7 +53,6 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         CircleImageView profileImage;
         TextView username;
         ViewHolder(View itemView) {
-
             super(itemView);
 
             username = (TextView) itemView.findViewById(R.id.name_user);

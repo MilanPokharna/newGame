@@ -1,4 +1,4 @@
-package com.lenovo.newgame.activity;
+package com.lenovo.newgame.fragments;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;

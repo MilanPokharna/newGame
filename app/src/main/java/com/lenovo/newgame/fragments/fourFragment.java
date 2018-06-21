@@ -1,4 +1,4 @@
-package com.lenovo.newgame;
+package com.lenovo.newgame.fragments;
 
 import android.content.Context;
 import android.net.Uri;
@@ -10,12 +10,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import java.util.Objects;
+import com.lenovo.newgame.R;
 
 
 /**
