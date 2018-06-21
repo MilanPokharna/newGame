@@ -43,7 +43,7 @@ public final class R {
         public static final int layout_progress = 0x7f0a00b6;
         public static final int layout_progress_holder = 0x7f0a00b7;
         public static final int layout_secondary_progress = 0x7f0a00b8;
-        public static final int tv_progress = 0x7f0a0144;
+        public static final int tv_progress = 0x7f0a0145;
     }
     public static final class layout {
         public static final int layout_icon_round_corner_progress_bar = 0x7f0c003d;
