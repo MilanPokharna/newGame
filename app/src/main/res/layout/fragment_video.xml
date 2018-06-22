@@ -72,7 +72,7 @@
                     android:layout_height="50dp"
                     android:layout_weight="0.2"
                     android:layout_gravity="center"
-                    android:background="@drawable/gradeo"/>
+                    android:background="@drawable/gradeon"/>
 
                 <TextView
                     android:layout_width="0dp"
@@ -166,7 +166,7 @@
                     android:layout_width="0dp"
                     android:layout_height="50dp"
                     android:layout_weight="0.2"
-                    android:background="@drawable/gradef"/>
+                    android:background="@drawable/gradefo"/>
 
                 <TextView
                     android:layout_width="0dp"
