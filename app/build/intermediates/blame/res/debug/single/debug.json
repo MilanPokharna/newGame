@@ -32,6 +32,10 @@
         "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\abea0dcad9edde63146d89199a6ffb27\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
+        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gradeth.png.flat",
+        "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\drawable\\gradeth.png"
+    },
+    {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
         "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\eac56d61a2ac55aab0a95e1e6eecc60d\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
     },
@@ -102,6 +106,10 @@
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_edittext.xml.flat",
         "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\abea0dcad9edde63146d89199a6ffb27\\res\\color\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_play_arrow_black_24dp.png.flat",
+        "source": "E:\\@PRACTICE\\android\\newGame\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_play_arrow_black_24dp.png"
     },
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_volume_up_black_24dp.xml.flat",
@@ -178,6 +186,10 @@
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_botao_pressionado5.xml.flat",
         "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\drawable\\botao_pressionado5.xml"
+    },
+    {
+        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_countingtoonetwenty.png.flat",
+        "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\drawable\\countingtoonetwenty.png"
     },
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
@@ -384,6 +396,10 @@
         "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\fb67de93698e27c0cb19ed8c5bc185f8\\res\\drawable-hdpi-v4\\googleg_disabled_color_18.png"
     },
     {
+        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_addingthreewholenumbers.png.flat",
+        "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\drawable\\addingthreewholenumbers.png"
+    },
+    {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
         "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\eac56d61a2ac55aab0a95e1e6eecc60d\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
     },
@@ -398,6 +414,10 @@
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-watch-v20_common_google_signin_btn_text_disabled.xml.flat",
         "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-auth-15.0.1.aar\\58a9a9b95682e90e7d661f5294c97e80\\res\\drawable-watch-v20\\common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_doubleaddition.png.flat",
+        "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\drawable\\doubleaddition.png"
     },
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
@@ -444,6 +464,10 @@
         "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\fb67de93698e27c0cb19ed8c5bc185f8\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
+        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_doubledigitaddition.png.flat",
+        "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\drawable\\doubledigitaddition.png"
+    },
+    {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
         "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\abea0dcad9edde63146d89199a6ffb27\\res\\drawable-mdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
@@ -466,6 +490,10 @@
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_check_black_24dp.png.flat",
         "source": "E:\\@PRACTICE\\android\\newGame\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_check_black_24dp.png"
+    },
+    {
+        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_additionwordproblems.png.flat",
+        "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\drawable\\additionwordproblems.png"
     },
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
@@ -516,6 +544,10 @@
         "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\abea0dcad9edde63146d89199a6ffb27\\res\\drawable-mdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
+        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_play_arrow_black_24dp.png.flat",
+        "source": "E:\\@PRACTICE\\android\\newGame\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_play_arrow_black_24dp.png"
+    },
+    {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_menu_share.png.flat",
         "source": "E:\\@PRACTICE\\android\\newGame\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_menu_share.png"
     },
@@ -538,6 +570,10 @@
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_menu_share.xml.flat",
         "source": "E:\\@PRACTICE\\android\\newGame\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_menu_share.xml"
+    },
+    {
+        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_grade0.jpg.flat",
+        "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\drawable\\grade0.jpg"
     },
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_item_separator.xml.flat",
@@ -572,6 +608,10 @@
         "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\abea0dcad9edde63146d89199a6ffb27\\res\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
+        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_countingtoten.png.flat",
+        "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\drawable\\countingtoten.png"
+    },
+    {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\abea0dcad9edde63146d89199a6ffb27\\res\\drawable-ldrtl-xxhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
@@ -582,6 +622,10 @@
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
         "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\abea0dcad9edde63146d89199a6ffb27\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gradet.png.flat",
+        "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\drawable\\gradet.png"
     },
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_arrow_drop_right_black_24dp.xml.flat",
@@ -748,6 +792,10 @@
         "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\font\\grbld.ttf"
     },
     {
+        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gradetwo.jpg.flat",
+        "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\drawable\\gradetwo.jpg"
+    },
+    {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
         "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\fb67de93698e27c0cb19ed8c5bc185f8\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
     },
@@ -892,6 +940,10 @@
         "source": "E:\\@PRACTICE\\android\\newGame\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\dashboard.png"
     },
     {
+        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gradeo.png.flat",
+        "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\drawable\\gradeo.png"
+    },
+    {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\abea0dcad9edde63146d89199a6ffb27\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
@@ -992,6 +1044,10 @@
         "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\drawable\\trigo.png"
     },
     {
+        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fractions.png.flat",
+        "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\drawable\\fractions.png"
+    },
+    {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_normal.xml.flat",
         "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\library-5.4.3.aar\\d8df9a0944cfeb6f3fce67d3fc44fff0\\res\\drawable\\button_normal.xml"
     },
@@ -1058,6 +1114,10 @@
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_spinner.xml.flat",
         "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\abea0dcad9edde63146d89199a6ffb27\\res\\color-v23\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gradethree.jpg.flat",
+        "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\drawable\\gradethree.jpg"
     },
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
@@ -1198,6 +1258,10 @@
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\raw_bclick.mp3.flat",
         "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\raw\\bclick.mp3"
+    },
+    {
+        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_preschool.jpg.flat",
+        "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\drawable\\preschool.jpg"
     },
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_dark.xml.flat",
@@ -1436,6 +1500,10 @@
         "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\fb67de93698e27c0cb19ed8c5bc185f8\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
     },
     {
+        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gradeone.jpg.flat",
+        "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\drawable\\gradeone.jpg"
+    },
+    {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\abea0dcad9edde63146d89199a6ffb27\\res\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
@@ -1446,6 +1514,10 @@
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-watch-v20_common_google_signin_btn_text_dark_normal.xml.flat",
         "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-auth-15.0.1.aar\\58a9a9b95682e90e7d661f5294c97e80\\res\\drawable-watch-v20\\common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_placevalue.png.flat",
+        "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\drawable\\placevalue.png"
     },
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
@@ -1524,6 +1596,10 @@
         "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\library-5.4.3.aar\\d8df9a0944cfeb6f3fce67d3fc44fff0\\res\\drawable-hdpi-v4\\cling.png"
     },
     {
+        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gradef.png.flat",
+        "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\drawable\\gradef.png"
+    },
+    {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\abea0dcad9edde63146d89199a6ffb27\\res\\drawable-mdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
@@ -1546,6 +1622,10 @@
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_basicmath.png.flat",
         "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\drawable\\basicmath.png"
+    },
+    {
+        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_additionndsubtrationstrategies.png.flat",
+        "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\drawable\\additionndsubtrationstrategies.png"
     },
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_menu_item_layout.xml.flat",
@@ -1936,12 +2016,20 @@
         "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\abea0dcad9edde63146d89199a6ffb27\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
+        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_multiplicationvocab.png.flat",
+        "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\drawable\\multiplicationvocab.png"
+    },
+    {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\abea0dcad9edde63146d89199a6ffb27\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
         "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_play_arrow_black_24dp.xml.flat",
+        "source": "E:\\@PRACTICE\\android\\newGame\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_play_arrow_black_24dp.xml"
     },
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\anim_tooltip_enter.xml.flat",
@@ -1992,6 +2080,14 @@
         "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\eac56d61a2ac55aab0a95e1e6eecc60d\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
+        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_learningoddandeven.png.flat",
+        "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\drawable\\learningoddandeven.png"
+    },
+    {
+        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_play_arrow_black_24dp.png.flat",
+        "source": "E:\\@PRACTICE\\android\\newGame\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_play_arrow_black_24dp.png"
+    },
+    {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_design_ic_visibility_off.png.flat",
         "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\0a6e98a08836dc81e62b1d4233949887\\res\\drawable-hdpi-v4\\design_ic_visibility_off.png"
     },
@@ -2018,6 +2114,10 @@
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_share_black_24dp.png.flat",
         "source": "E:\\@PRACTICE\\android\\newGame\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_share_black_24dp.png"
+    },
+    {
+        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_subtractionandregrouping.png.flat",
+        "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\drawable\\subtractionandregrouping.png"
     },
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_light_normal.xml.flat",
@@ -2062,6 +2162,10 @@
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_custom.xml.flat",
         "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\c33bdd2255fbd2523108ab6fd49e1108\\res\\layout\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_compairingnumbers.png.flat",
+        "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\drawable\\compairingnumbers.png"
     },
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_square1.jpg.flat",
@@ -2134,6 +2238,10 @@
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_shrink_fade_out_from_bottom.xml.flat",
         "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\abea0dcad9edde63146d89199a6ffb27\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_wordproblemssubtration.png.flat",
+        "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\drawable\\wordproblemssubtration.png"
     },
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
@@ -2228,6 +2336,10 @@
         "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\c33bdd2255fbd2523108ab6fd49e1108\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
+        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_preschoolcollection.png.flat",
+        "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\drawable\\preschoolcollection.png"
+    },
+    {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
         "source": "E:\\@PRACTICE\\android\\newGame\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
     },
@@ -2258,6 +2370,10 @@
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_radio.xml.flat",
         "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\abea0dcad9edde63146d89199a6ffb27\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pre.png.flat",
+        "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\drawable\\pre.png"
     },
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_extension_black_24dp.png.flat",
@@ -2310,6 +2426,10 @@
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-watch-v20_common_google_signin_btn_text_light_normal.xml.flat",
         "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-auth-15.0.1.aar\\58a9a9b95682e90e7d661f5294c97e80\\res\\drawable-watch-v20\\common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_learningnumberforkids.png.flat",
+        "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\drawable\\learningnumberforkids.png"
     },
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -2432,6 +2552,10 @@
         "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\layout\\fragment_video.xml"
     },
     {
+        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_play_arrow_black_24dp.png.flat",
+        "source": "E:\\@PRACTICE\\android\\newGame\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_play_arrow_black_24dp.png"
+    },
+    {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
         "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\abea0dcad9edde63146d89199a6ffb27\\res\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
     },
@@ -2446,6 +2570,10 @@
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\abea0dcad9edde63146d89199a6ffb27\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_additionvideoforkids.png.flat",
+        "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\drawable\\additionvideoforkids.png"
     },
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rectangle1.png.flat",
@@ -2488,6 +2616,10 @@
         "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\eac56d61a2ac55aab0a95e1e6eecc60d\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
+        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_addingandsubtratinglargenumbers.png.flat",
+        "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\drawable\\addingandsubtratinglargenumbers.png"
+    },
+    {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_design_ic_visibility_off.png.flat",
         "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\0a6e98a08836dc81e62b1d4233949887\\res\\drawable-xhdpi-v4\\design_ic_visibility_off.png"
     },
@@ -2526,6 +2658,10 @@
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_in_top.xml.flat",
         "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\abea0dcad9edde63146d89199a6ffb27\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_play_arrow_black_24dp.png.flat",
+        "source": "E:\\@PRACTICE\\android\\newGame\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_play_arrow_black_24dp.png"
     },
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_dark_focused.xml.flat",
@@ -2714,6 +2850,10 @@
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_36dp.png.flat",
         "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\abea0dcad9edde63146d89199a6ffb27\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_play_arrow_black_24dp.png.flat",
+        "source": "E:\\@PRACTICE\\android\\newGame\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_play_arrow_black_24dp.png"
     },
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_maxresdefault.jpg.flat",

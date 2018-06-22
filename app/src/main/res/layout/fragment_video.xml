@@ -1,72 +1,211 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.videoFragment">
+    android:background="@drawable/gradient4"
+    android:weightSum="1"
+    android:paddingTop="@dimen/activity_horizontal_margin">
+
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:weightSum="5"
-        android:layout_gravity="center"
+        android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_height="match_parent">
+        android:paddingTop="10dp"
+        android:weightSum="5">
 
-            <TextView
-                android:background="#22ef4e"
-                android:textAlignment="center"
-                android:textSize="25sp"
-                android:gravity="center"
-                android:id="@+id/Preschool"
-                android:layout_weight="1"
-                android:text="Preschool"
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:weightSum=".7">
+
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="0dp" />
+                android:layout_height="0dp"
+                android:layout_weight=".5"
+                android:weightSum="1"
+                android:background="@drawable/seletor_botao6"
+                android:onClick="easylevel">
 
-        <TextView
-            android:background="#3395ff"
-            android:textSize="25sp"
-            android:textAlignment="center"
-            android:gravity="center"
-            android:id="@+id/grade1"
-            android:layout_weight="1"
-            android:text="GRADE 1"
-            android:layout_width="match_parent"
-            android:layout_height="0dp" />
+                <View
+                    android:layout_margin="15dp"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="0.2"
+                    android:layout_gravity="center"
+                    android:background="@drawable/pre"/>
 
-        <TextView
-            android:background="#efae22"
-            android:textSize="25sp"
-            android:textAlignment="center"
-            android:gravity="center"
-            android:id="@+id/grade2"
-            android:layout_weight="1"
-            android:text="GRADE 2"
-            android:layout_width="match_parent"
-            android:layout_height="0dp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:textAlignment="center"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8"
+                    android:text="PreSchool"
+                    style="@style/menu_buttons"/>
 
-        <TextView
-            android:background="#efe822"
-            android:textSize="25sp"
-            android:textAlignment="center"
-            android:gravity="center"
-            android:id="@+id/grade3"
-            android:layout_weight="1"
-            android:text="GRADE 3"
-            android:layout_width="match_parent"
-            android:layout_height="0dp" />
+            </LinearLayout>
 
-        <TextView
-            android:background="#ef5522"
-            android:textSize="25sp"
-            android:textAlignment="center"
-            android:gravity="center"
-            android:id="@+id/grade4"
-            android:layout_weight="1"
-            android:text="GRADE 4"
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="0dp" />
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:weightSum=".7">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".5"
+                android:weightSum="1"
+                android:background="@drawable/seletor_botao6"
+                android:onClick="easylevel">
+
+                <View
+                    android:layout_margin="15dp"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="0.2"
+                    android:layout_gravity="center"
+                    android:background="@drawable/gradeo"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:textAlignment="center"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8"
+                    android:text="GRADE !"
+                    style="@style/menu_buttons"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:weightSum=".7">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:weightSum="1"
+                android:id="@+id/object"
+                android:background="@drawable/seletor_botao"
+                >
+
+                <View
+                    android:layout_margin="15dp"
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="0.2"
+                    android:background="@drawable/gradet"/>
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:text="GRADE 2"
+                    style="@style/menu_buttons"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:weightSum=".7">
+
+            <LinearLayout
+                android:id="@+id/trigo"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".5"
+                android:weightSum="1"
+                android:background="@drawable/seletor_botao4"
+                >
+
+                <View
+                    android:layout_margin="15dp"
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="0.2"
+                    android:background="@drawable/gradeth"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:layout_gravity="center"
+                    android:text="GRADE 3"
+                    style="@style/menu_buttons" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:weightSum=".7">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".5"
+                android:weightSum="1"
+                android:id="@+id/learnbook"
+                android:background="@drawable/seletor_botao2"
+                >
+
+                <View
+                    android:layout_margin="15dp"
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="0.2"
+                    android:background="@drawable/gradef"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:layout_gravity="center"
+                    android:text="GRADE 4"
+                    style="@style/menu_buttons" />
+
+            </LinearLayout>
+
+        </LinearLayout>
 
     </LinearLayout>
 
-</FrameLayout>
+</LinearLayout>

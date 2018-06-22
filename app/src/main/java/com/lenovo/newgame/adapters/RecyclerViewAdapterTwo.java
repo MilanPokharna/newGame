@@ -22,11 +22,13 @@ public class RecyclerViewAdapterTwo extends RecyclerView.Adapter<RecyclerViewAda
     public Context context;
     public List<String> templist = new ArrayList<>();
     public List<String> namelist = new ArrayList<>();
+    public ArrayList<Integer> img = new ArrayList<>();
 
-    public RecyclerViewAdapterTwo(Context context, List<String> templist , List<String>namelist) {
+    public RecyclerViewAdapterTwo(Context context, List<String> templist , List<String>namelist , ArrayList<Integer> imglist) {
         this.context = context;
         this.templist = templist;
         this.namelist = namelist;
+        this.img = imglist;
     }
 
     @Override
@@ -52,7 +54,7 @@ public class RecyclerViewAdapterTwo extends RecyclerView.Adapter<RecyclerViewAda
     @Override
     public void onBindViewHolder(ViewHolder holder, final int position) {
         holder.text.setText(namelist.get(position));
-        holder.img.setImageResource(R.drawable.quiztime);
+        holder.img.setImageResource(img.get(position));
         holder.cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

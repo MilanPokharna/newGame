@@ -33,7 +33,7 @@
     <style name="menu_buttons">
         <item name="android:textColor">#000</item>
         <item name="android:textSize">26sp</item>
-        <item name="android:fontFamily">@font/earworm</item>
+        <item name="android:fontFamily">@font/comicpanels</item>
         <item name="android:gravity">center</item>
     </style>
 

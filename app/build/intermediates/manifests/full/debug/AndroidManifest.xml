@@ -67,8 +67,7 @@
         <activity android:name="com.lenovo.newgame.activity.Dashboard_Activity" />
         <activity android:name="com.lenovo.newgame.activity.game_2048" />
         <activity android:name="com.lenovo.newgame.quiz" />
-        <activity android:name="com.lenovo.newgame.activity.video" >
-        </activity>
+        <activity android:name="com.lenovo.newgame.activity.video" />
 
         <meta-data
             android:name="android.support.VERSION"

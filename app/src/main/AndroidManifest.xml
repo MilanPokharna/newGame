@@ -36,7 +36,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activity.HomeActivity" />
         </activity>
-
         <activity
             android:name=".activity.TrignoActivity"
             android:screenOrientation="userPortrait" />
@@ -50,9 +49,7 @@
         <activity android:name=".activity.Dashboard_Activity" />
         <activity android:name=".activity.game_2048" />
         <activity android:name=".quiz" />
-        <activity android:name=".activity.video">
-
-        </activity>
+        <activity android:name=".activity.video"></activity>
     </application>
 
 </manifest>
