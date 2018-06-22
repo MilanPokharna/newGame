@@ -72,7 +72,7 @@ public class video extends AppCompatActivity {
         preschool.add("https://www.youtube.com/watch?v=KwRsEhdJ3Fo&list=PLrHqUbddzk2zVIStQGpC-20BHZI5nsbfb&index=23");
 
         grade1img.add(R.drawable.additionwordproblems);
-        grade1name.add("Addition Word Problems ");
+        grade1name.add("Addition Word Problems 1st Grade");
         grade1.add("https://www.youtube.com/watch?v=q7mi24ClSMw&index=7&list=PLrHqUbddzk2zZKzpIXLsQLtzcZDG0UaiU");
         grade1img.add(R.drawable.wordproblemssubtration);
         grade1name.add("Word Problems Subtraction");
@@ -139,13 +139,13 @@ public class video extends AppCompatActivity {
         }
         else if (value.equals("grade3"))
         {
-            adapterTwo = new RecyclerViewAdapterTwo(video.this,preschool,preschoolname,preschoolimg);
+            adapterTwo = new RecyclerViewAdapterTwo(video.this,grade2,grade2name,grade2img);
             progressDialog.dismiss();
             recyclerView.setAdapter( adapterTwo );
         }
         else if (value.equals("grade4"))
         {
-            adapterTwo = new RecyclerViewAdapterTwo(video.this,preschool,preschoolname,preschoolimg);
+            adapterTwo = new RecyclerViewAdapterTwo(video.this,grade2,grade2name,grade2img);
             progressDialog.dismiss();
             recyclerView.setAdapter( adapterTwo );
         }
