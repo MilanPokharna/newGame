@@ -28,12 +28,13 @@
             android:weightSum=".7">
 
             <LinearLayout
+                android:id="@+id/preschool"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight=".5"
                 android:weightSum="1"
                 android:background="@drawable/seletor_botao6"
-                android:onClick="easylevel">
+                >
 
                 <View
                     android:layout_margin="15dp"
@@ -64,12 +65,13 @@
             android:weightSum=".7">
 
             <LinearLayout
+                android:id="@+id/grade1"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight=".5"
                 android:weightSum="1"
                 android:background="@drawable/seletor_botao6"
-                android:onClick="easylevel">
+                >
 
                 <View
                     android:layout_margin="15dp"
@@ -100,11 +102,11 @@
             android:weightSum=".7">
 
             <LinearLayout
+                android:id="@+id/grade2"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="0.5"
                 android:weightSum="1"
-                android:id="@+id/object"
                 android:background="@drawable/seletor_botao"
                 >
 
@@ -117,6 +119,7 @@
                     android:background="@drawable/gradet"/>
 
                 <TextView
+
                     android:layout_gravity="center"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -138,7 +141,7 @@
             android:weightSum=".7">
 
             <LinearLayout
-                android:id="@+id/trigo"
+                android:id="@+id/grade3"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight=".5"
@@ -178,11 +181,11 @@
             android:weightSum=".7">
 
             <LinearLayout
+                android:id="@+id/grade4"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight=".5"
                 android:weightSum="1"
-                android:id="@+id/learnbook"
                 android:background="@drawable/seletor_botao2"
                 >
 
