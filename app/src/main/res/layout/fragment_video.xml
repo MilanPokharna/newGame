@@ -7,8 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient4"
-    android:weightSum="1"
-    android:paddingTop="@dimen/activity_horizontal_margin">
+    android:weightSum="1">
 
 <ScrollView
     android:layout_width="match_parent"
@@ -17,7 +16,8 @@
         android:layout_width="match_parent"
         android:layout_gravity="center"
         android:gravity="center"
-        android:layout_height="match_parent"
+        android:paddingBottom="10dp"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
         android:weightSum="5">
 
@@ -26,7 +26,7 @@
                 android:id="@+id/preschool"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_margin="10dp"
+                android:layout_margin="15dp"
                 android:layout_weight=".5"
                 android:weightSum="1"
                 android:background="@drawable/seletor_botao6"
@@ -57,7 +57,7 @@
                 android:layout_height="0dp"
                 android:layout_weight=".5"
                 android:weightSum="1"
-                android:layout_margin="10dp"
+                android:layout_margin="15dp"
                 android:background="@drawable/seletor_botao4"
                 >
 
@@ -82,7 +82,7 @@
                 android:id="@+id/grade2"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_margin="10dp"
+                android:layout_margin="15dp"
                 android:layout_weight="0.5"
                 android:weightSum="1"
                 android:background="@drawable/seletor_botao"
@@ -111,7 +111,7 @@
                 android:id="@+id/grade3"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_margin="10dp"
+                android:layout_margin="15dp"
                 android:layout_weight=".5"
                 android:weightSum="1"
                 android:background="@drawable/seletor_botao4"
@@ -140,7 +140,7 @@
                 android:id="@+id/grade4"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_margin="10dp"
+                android:layout_margin="15dp"
                 android:layout_weight=".5"
                 android:weightSum="1"
                 android:background="@drawable/seletor_botao2"
