@@ -7,15 +7,9 @@ configurations.all {
 }
 
 android {
-    signingConfigs {
-        config {
-            keyAlias 'key0'
-            keyPassword '123456789'
-            storeFile file('E:/@PRACTICE/android/signed apk\'s/MathMania.jks')
-            storePassword '123456789'
-        }
-    }
+
     compileSdkVersion 26
+
     defaultConfig {
         applicationId "com.lenovo.newgame"
         minSdkVersion 19
@@ -28,10 +22,7 @@ android {
             minifyEnabled true
             shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.config
-            zipAlignEnabled true
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-        }
+           }
     }
     lintOptions {
         checkReleaseBuilds false

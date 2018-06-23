@@ -4,6 +4,7 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.res.AssetManager;
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
@@ -43,6 +44,9 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.lenovo.newgame.R;
+import com.lenovo.newgame.game_2048;
+import com.lenovo.newgame.maingame.GameActivity;
+import com.lenovo.newgame.maingame.GameView;
 import com.lenovo.newgame.quiz;
 
 import java.util.Locale;
@@ -51,10 +55,20 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import de.hdodenhof.circleimageview.CircleImageView;
 
-import static com.lenovo.newgame.R.drawable.ic_volume_up_black_24dp;
 
 public class HomeActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener
-{   public MediaPlayer mp;
+{
+    // Our object to handle the View
+    public static GameView gameView;
+
+    //used to load bitmaps
+    public static AssetManager assets;
+
+    //hold dimension of screen
+    public static int screenX;
+    public static int screenY;
+
+    public MediaPlayer mp;
     public int soundflag;
     FirebaseAuth mAuth;
     LinearLayout trigno, learnbook, object;
@@ -95,6 +109,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         mp = MediaPlayer.create(this, R.raw.bclick);
         SharedPreferences prefs = this.getSharedPreferences(
                 "level", Context.MODE_PRIVATE);
+//        FirebaseDatabase.getInstance().setPersistenceEnabled(true);
         soundflag = prefs.getInt( "sound",1 );
         basiclevel = prefs.getInt("basiclevel",0);
         objectlevel = prefs.getInt("objectlevel",0);
@@ -200,8 +215,10 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
     public void easylevel(View view) {
         call();
         Intent intent = new Intent(HomeActivity.this, basic.class);
-        startActivity(intent);
+      startActivity(intent);
     }
+
+
 
     @Override
     public void onBackPressed() {
@@ -234,11 +251,11 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
 
         else if (id == R.id.nav_share) {
 
-            Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
+            Intent sharingIntent = new Intent(Intent.ACTION_SEND);
             sharingIntent.setType("text/plain");
             String shareBody = "";
-            sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Subject Here");
-            sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody);
+            sharingIntent.putExtra(Intent.EXTRA_SUBJECT, "Subject Here");
+            sharingIntent.putExtra(Intent.EXTRA_TEXT, shareBody);
             startActivity(Intent.createChooser(sharingIntent, "Share via"));
 
         } else if (id == R.id.nav_sound) {
@@ -251,7 +268,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
                 soundflag = 0;
             }
             else{
-                item.setIcon( ic_volume_up_black_24dp);
+                item.setIcon(R.drawable.ic_volume_up_black_24dp);
                 prefs.edit().putInt( "sound",1).apply();
                 soundflag = 1;
             }
@@ -261,6 +278,11 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
 
             updateUI(user);
 
+        }
+        else if(id ==R.id.owlgame)
+        {
+            Intent intent = new Intent( this, GameActivity.class );
+            startActivity( intent );
         }
 
 
@@ -347,6 +369,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
                     }
                 });
     }
+
 public void game2048(View V){
 
     Intent i =new Intent(HomeActivity.this, game_2048.class);

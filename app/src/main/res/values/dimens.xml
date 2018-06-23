@@ -13,7 +13,7 @@
     <dimen name="activity_vertical_marginbtn">10dp</dimen>
     <dimen name="width">50dp</dimen>
     <dimen name="height">70dp</dimen>
-    <dimen name="sub_heading">15sp</dimen>
+    <dimen name="sub_heading">20sp</dimen>
     <dimen name="nav_header_vertical_spacing">8dp</dimen>
     <dimen name="nav_header_height">176dp</dimen>
     <dimen name="corner_radius">5dp</dimen>
@@ -25,7 +25,6 @@
     <dimen name="Rmargin">20dp</dimen>
     <dimen name="Tmargin">20dp</dimen>
     <dimen name="Tmargin1">10dp</dimen>
-    <dimen name="Bmargin">20dp</dimen>
     <dimen name="ImgHeight">50dp</dimen>
     <dimen name="ImgWidth">150dp</dimen>
     <dimen name="Tmargin2">30dp</dimen>
@@ -33,4 +32,7 @@
     <dimen name="contentfont">22dp</dimen>
     <dimen name="formsize">18dp</dimen>
     <dimen name="fill">1.5dp</dimen>
+
+    <dimen name="score_size">20sp</dimen>
+    <dimen name="Bmargin">20dp</dimen>
 </resources>

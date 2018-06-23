@@ -4,37 +4,51 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:cardCornerRadius="20dp"
-    android:layout_margin="5dp">
+    >
+
 <LinearLayout
-    android:weightSum="1"
-    android:padding="8dp"
+    android:weightSum="2"
+    android:padding="16dp"
     android:orientation="horizontal"
+    android:background="#567608"
+    android:id="@+id/main_linear"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
-    <de.hdodenhof.circleimageview.CircleImageView
+    <TextView
         android:layout_weight="0.8"
-        android:id="@+id/profileimage"
+        android:id="@+id/rank"
+        android:text="4th"
+        android:textStyle="bold"
+        android:textSize="@dimen/score_size"
         android:layout_width="match_parent"
-        android:layout_height="30dp"
+        android:layout_height="match_parent"
         android:layout_gravity="center"
+        android:textColor="#FFFFFF"
         android:src="@drawable/ic_launcher_background"/>
     <TextView
         android:layout_gravity="center"
-        android:layout_weight="0.2"
+        android:layout_weight="0.4"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/app_name"
-        android:textSize="20sp"
+        android:layout_height="match_parent"
+        android:text="Tushar Jain"
+        android:shadowColor="@android:color/white"
+        android:textSize="@dimen/score_size"
+        android:shadowDy="0"
+        android:shadowRadius="50"
+        android:textColor="#FFFFFF"
         android:textStyle="bold"
         android:id="@+id/name_user"
         />
     <TextView
         android:layout_gravity="center"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:text="50"
-        android:textSize="24sp"
+        android:textSize="@dimen/score_size"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
         android:id="@+id/score"/>
 </LinearLayout>
+
 </android.support.v7.widget.CardView>

@@ -39,4 +39,7 @@
     <color name="headcolor">#86D066</color>
     <color name="fontcolor">#8f8d8d</color>
 
+    <color name="name">#000000</color>
+    <color name="background">#fdebef</color>
+
 </resources>

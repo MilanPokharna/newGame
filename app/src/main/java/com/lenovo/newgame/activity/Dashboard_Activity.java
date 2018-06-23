@@ -72,7 +72,6 @@ public class Dashboard_Activity extends AppCompatActivity {
         progressBar=(ColorArcProgressBar)findViewById(R.id.bar1);
 
         myref = FirebaseDatabase.getInstance().getReference();
-        mchild = myref.child("User");
         storeimage = FirebaseStorage.getInstance().getReference();
 
         roundCornerProgressBar=(RoundCornerProgressBar)findViewById(R.id.simpleProgressBar);
@@ -111,6 +110,7 @@ public class Dashboard_Activity extends AppCompatActivity {
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 HomeActivity homeActivity=new HomeActivity();
                 if(user!=null)
                 {
@@ -206,7 +206,8 @@ public class Dashboard_Activity extends AppCompatActivity {
     private void uploadData(FirebaseUser user) {
         if(user != null)
         {
-            mchild=mchild.child( user.getUid().toString() );
+
+            mchild=myref.child("User").child( user.getUid().toString() );
             int scorefinal = objectlevel+basiclevel+trignolevel;
             String name =  user.getDisplayName();
             Toast.makeText( this, ""+name, Toast.LENGTH_SHORT ).show();
@@ -223,8 +224,8 @@ public class Dashboard_Activity extends AppCompatActivity {
         }
     }
 
-
-
-
-
+    @Override
+    public void onBackPressed() {
+        finish();
+    }
 }

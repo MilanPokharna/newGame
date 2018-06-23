@@ -63,11 +63,21 @@
         <activity
             android:name="com.lenovo.newgame.activity.object"
             android:screenOrientation="userPortrait" />
-        <activity android:name="com.lenovo.newgame.activity.Scoreborad" />
         <activity android:name="com.lenovo.newgame.activity.Dashboard_Activity" />
-        <activity android:name="com.lenovo.newgame.activity.game_2048" />
+        <activity android:name="com.lenovo.newgame.game_2048" />
         <activity android:name="com.lenovo.newgame.quiz" />
-        <activity android:name="com.lenovo.newgame.activity.video" />
+        <activity android:name="com.lenovo.newgame.maingame.GameActivity" />
+        <activity
+            android:name="com.lenovo.newgame.classes.HowToPopUp"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.CustomPopUpTheme" >
+        </activity>
+        <activity
+            android:name="com.lenovo.newgame.activity.Scoreborad"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name="com.lenovo.newgame.activity.video"
+            android:screenOrientation="userPortrait" />
 
         <meta-data
             android:name="android.support.VERSION"

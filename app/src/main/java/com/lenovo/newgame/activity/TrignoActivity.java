@@ -1,11 +1,14 @@
 package com.lenovo.newgame.activity;
 
+import android.annotation.SuppressLint;
+import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Typeface;
 import android.media.MediaPlayer;
+import android.os.Build;
 import android.os.Handler;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -41,6 +44,8 @@ public class TrignoActivity extends AppCompatActivity {
     public String bl1,bl2,bl3="";
     public int size=65;
 
+    @SuppressLint("ResourceType")
+    @TargetApi(Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -50,6 +55,10 @@ public class TrignoActivity extends AppCompatActivity {
         black1= (Button)findViewById(R.id.button_8);
         black2= (Button)findViewById(R.id.button_2);
         black3= (Button)findViewById(R.id.button_5);
+
+        clear = (Button)findViewById(R.id.button_clear);
+        clear.setBackgroundResource(R.drawable.seletor_botao);
+        clear.setBackgroundTintList(getApplicationContext().getResources().getColorStateList(R.drawable.buttoncolor));
         Result=(TextView)findViewById(R.id.answer);
         Goal=(TextView)findViewById(R.id.goal);
         Level=(TextView)findViewById(R.id.level);

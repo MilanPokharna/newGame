@@ -1,51 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:layout_height="match_parent"
+    android:background="@drawable/gradientlead"
     >
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Student Over All Performence : "
-        android:textSize="20sp"
-        android:textColor="#181717"
-        android:textStyle="bold"
-        android:layout_margin="10dp"
-        />
-    <com.shinelw.library.ColorArcProgressBar
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:layout_gravity="center_horizontal"
-        android:id="@+id/bar1"
-        app:is_need_content="true"
-        app:front_color1="#00ff00"
-        app:front_color2="#ffff00"
-        app:front_color3="#ff0000"
-        app:max_value="100"
-        app:back_width="10dp"
-        app:front_width="10dp"
-        app:total_engle="270"
-        app:is_need_title="true"
-        app:string_title="Progess"
-        app:is_need_unit="true"
-        app:string_unit="%"
-        app:back_color="@android:color/darker_gray"
-        />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/individual_level_performance"
+        android:layout_margin="10dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="@font/comickings"
+        android:text="@string/student_over_all_performence"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:id="@+id/lin"
         android:textSize="20sp"
-        android:textStyle="bold"
+        android:textStyle="bold" />
+
+    <com.shinelw.library.ColorArcProgressBar
+        android:id="@+id/bar1"
+        android:layout_below="@id/lin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        app:back_color="@android:color/darker_gray"
+        app:back_width="10dp"
+        app:front_color1="#00ff00"
+        app:front_color2="#ffff00"
+        app:front_color3="#ff0000"
+        app:front_width="10dp"
+        app:is_need_content="true"
+        app:is_need_title="true"
+        app:is_need_unit="true"
+        app:max_value="100"
+        app:string_title="Progess"
+        app:string_unit="%"
+        app:total_engle="270" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:fontFamily="@font/earworm"
+        android:text="@string/individual_level_performance"
         android:textColor="#181717"
-        />
+        android:layout_below="@id/bar1"
+        android:id="@+id/lin2"
+        android:textSize="20sp"
+        android:textStyle="bold" />
     <LinearLayout
+        android:layout_below="@id/lin2"
+        android:id="@+id/lin6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp">
@@ -53,6 +64,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Basic"
+            android:textStyle="bold"
+            android:fontFamily="@font/earworm"
             android:layout_margin="10dp"
             android:textSize="@dimen/sub_heading"/>
         <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
@@ -68,11 +81,13 @@
             app:rcRadius="10dp"
             app:rcReverse="false"
             app:rcBackgroundPadding="3dp"
-            app:rcProgressColor="#c07c38"
+            app:rcProgressColor="#14d21a"
             app:rcBackgroundColor="#aeadad"/>
 
     </LinearLayout>
     <LinearLayout
+        android:layout_below="@id/lin6"
+        android:id="@+id/lin7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp">
@@ -80,6 +95,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Object"
+            android:textStyle="bold"
+            android:fontFamily="@font/earworm"
             android:layout_margin="10dp"
             android:textSize="@dimen/sub_heading"/>
         <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
@@ -95,18 +112,21 @@
             app:rcRadius="10dp"
             app:rcReverse="false"
             app:rcBackgroundPadding="3dp"
-            app:rcProgressColor="#c07c38"
+            app:rcProgressColor="#ff080c"
             app:rcBackgroundColor="#aeadad"/>
 
     </LinearLayout>
     <LinearLayout
+        android:layout_below="@id/lin7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Trigono"
+            android:text="Trigno"
+            android:textStyle="bold"
+            android:fontFamily="@font/earworm"
             android:layout_margin="10dp"
             android:textSize="@dimen/sub_heading"/>
         <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
@@ -122,24 +142,24 @@
             app:rcRadius="10dp"
             app:rcReverse="false"
             app:rcBackgroundPadding="3dp"
-            app:rcProgressColor="#c07c38"
+            app:rcProgressColor="#3956e9"
             app:rcBackgroundColor="#aeadad"/>
 
     </LinearLayout>
 
-    <RelativeLayout
-        android:layout_width="wrap_content"
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/leadboard"
+        android:layout_width="match_parent"
+        android:background="#1c37bf"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        >
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="LeadBoard"
-            android:id="@+id/leadboard"
-            android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:text="LeadBoard"
+        android:textSize="16sp"
+        android:textColor="#ffffff"
 
-            />
-    </RelativeLayout>
+        />
 
-</LinearLayout>
+</RelativeLayout>

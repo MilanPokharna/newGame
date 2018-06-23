@@ -33,22 +33,22 @@ public final class R {
         public static final int rcTextProgressSize = 0x7f04015e;
     }
     public static final class color {
-        public static final int round_corner_progress_bar_background_default = 0x7f060074;
-        public static final int round_corner_progress_bar_progress_default = 0x7f060075;
-        public static final int round_corner_progress_bar_secondary_progress_default = 0x7f060076;
+        public static final int round_corner_progress_bar_background_default = 0x7f060076;
+        public static final int round_corner_progress_bar_progress_default = 0x7f060077;
+        public static final int round_corner_progress_bar_secondary_progress_default = 0x7f060078;
     }
     public static final class id {
-        public static final int iv_progress_icon = 0x7f0a00b1;
-        public static final int layout_background = 0x7f0a00b4;
-        public static final int layout_progress = 0x7f0a00b5;
-        public static final int layout_progress_holder = 0x7f0a00b6;
-        public static final int layout_secondary_progress = 0x7f0a00b7;
-        public static final int tv_progress = 0x7f0a0145;
+        public static final int iv_progress_icon = 0x7f0a00b4;
+        public static final int layout_background = 0x7f0a00b7;
+        public static final int layout_progress = 0x7f0a00b8;
+        public static final int layout_progress_holder = 0x7f0a00b9;
+        public static final int layout_secondary_progress = 0x7f0a00ba;
+        public static final int tv_progress = 0x7f0a015c;
     }
     public static final class layout {
-        public static final int layout_icon_round_corner_progress_bar = 0x7f0c003d;
-        public static final int layout_round_corner_progress_bar = 0x7f0c003e;
-        public static final int layout_text_round_corner_progress_bar = 0x7f0c003f;
+        public static final int layout_icon_round_corner_progress_bar = 0x7f0c003e;
+        public static final int layout_round_corner_progress_bar = 0x7f0c003f;
+        public static final int layout_text_round_corner_progress_bar = 0x7f0c0040;
     }
     public static final class mipmap {
         public static final int round_corner_progress_icon = 0x7f0e0003;

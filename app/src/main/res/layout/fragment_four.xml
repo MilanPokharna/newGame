@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.fourFragment">
+    tools:context=".fourFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
@@ -35,6 +35,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.2"
+        android:text="0"
         android:id="@+id/inputnumber"
         android:inputType="numberDecimal"
         android:textColorHighlight="#4a58fc"

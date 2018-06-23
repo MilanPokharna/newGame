@@ -81,6 +81,31 @@
     <string name="flag_9"> 2+2 = 4 "\n" 4*4 = 16 "\n" 16*4 = 64 (Solved)</string>
     <string name="flag_10"> 800 * 2 = 1600 "\n" 1600/4 = 400 "\n" 400/4 = 100 (Solved) </string>
     <string name="individual_level_performance">Individual level performance</string>
+    <string name="game3">Basic Maths</string>
+    <string name="how_to_play">How to Play</string>
+    <string name="play_button">Select Game</string>
+    <string name="high_score_button">Leader Board</string>
+    <string name="settings_button">Settings</string>
+    <string name="leaderboard">Leaderboard</string>
 
+    <string name="bubble_leaderboard">Bubble Leaderboard</string>
+    <string name="balloon_leaderboard">Balloon Leaderboard</string>
+    <string name="owl_leaderboard">Owl Leaderboard</string>
+
+    <string name="balloon_scores">Balloon</string>
+    <string name="bubble_scores">Bubble</string>
+    <string name="owl_scores">Owl</string>
+
+    <string name="user_label">Username</string>
+    <string name="score_label">Score</string>
+    <string name="game1">Bubbles</string>
+    <string name="game2">Balloons</string>
+    <string name="game3_owl">Owl</string>
+
+    <string name="pop_up_next">Next</string>
+    <string name="pop_up_prev">Previous</string>
+
+    <string name="high_score">High Score: </string>
+    <string name="student_over_all_performence">Student Over All Performence :</string>
 
 </resources>

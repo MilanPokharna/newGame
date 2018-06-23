@@ -204,4 +204,9 @@ public class MainActivity extends AppCompatActivity {
             container.removeView(view);
         }
     }
+
+    @Override
+    public void onBackPressed() {
+        finishAffinity();
+    }
 }

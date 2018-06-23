@@ -1,25 +1,218 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradientlead"
-    tools:context=".activity.Scoreborad">
-<TextView
+    tools:context=".activity.Scoreborad"
+    >
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="2">
+<RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:textAlignment="center"
-    android:textColor="#ffffff"
-    android:textSize="30sp"
-    android:fontFamily="@font/comickings"
-    android:text="@string/score_board"/>
+    android:background="@color/background">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/scorecard_toolbar"
+        app:navigationIcon="?attr/homeAsUpIndicator"
+        >
 
-    <android.support.v7.widget.RecyclerView
-android:layout_marginTop="50dp"
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textColor="#ff8502"
+            android:fontFamily="@font/comickings"
+            android:textSize="28dp"
+            android:text="Leaderboard"/>
+    </android.support.v7.widget.Toolbar>
+</RelativeLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/background"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="126dp"
+            android:layout_weight="1"
+            android:weightSum="2">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:id="@+id/profileimage3"
+                android:layout_width="150dp"
+
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_launcher_background"/>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:cardCornerRadius="2dp"
+                app:cardUseCompatPadding="true">
+                <ImageView
+                    android:src="@drawable/cardgradient"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"/>
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_gravity="center|top"
+                    android:src="@drawable/bronze"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name"
+                    android:id="@+id/third"
+                    android:textAlignment="center"
+                    android:layout_gravity="bottom|center"
+                    android:textColor="@color/name"/>
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/score_third"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Score"
+                android:textColor="@color/name"
+                 />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="2">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+
+                android:id="@+id/profileimage1"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_launcher_background"/>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:cardCornerRadius="2dp"
+                app:cardUseCompatPadding="true"
+
+                >
+
+                <ImageView
+                    android:src="@drawable/cardgradient"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name"
+                    android:id="@+id/first"
+                    android:textAlignment="center"
+                    android:layout_gravity="bottom|center"
+                    android:textColor="@color/name"/>
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_gravity="center|top"
+                    android:src="@drawable/gold"/>
+            </android.support.v7.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Score"
+                android:id="@+id/score_first"
+                android:layout_gravity="center"
+                android:textColor="@color/name"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="56dp"
+            android:layout_weight="1"
+            android:weightSum="2">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+
+                android:id="@+id/profileimage2"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_launcher_background"/>
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:cardCornerRadius="2dp"
+                app:cardUseCompatPadding="true">
+                <ImageView
+                    android:src="@drawable/cardgradient"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name"
+                    android:textAlignment="center"
+                    android:id="@+id/second"
+                    android:layout_gravity="bottom|center"
+                    android:textColor="@color/name"/>
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_gravity="center|top"
+                    android:src="@drawable/silver"/>
+            </android.support.v7.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Score"
+                android:id="@+id/score_second"
+
+                android:layout_gravity="center"
+                android:textColor="@color/name"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingTop="10dp"
         android:id="@+id/recycleview"
         />
-</android.support.constraint.ConstraintLayout>
+        </LinearLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</RelativeLayout>

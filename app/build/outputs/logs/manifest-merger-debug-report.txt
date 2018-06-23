@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:2:1-55:12
+ADDED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:2:1-61:12
 MERGED from [com.android.support:design:26.1.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\0a6e98a08836dc81e62b1d4233949887\AndroidManifest.xml:17:1-31:12
 MERGED from [com.github.shinelw:library:1.0.1] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\library-1.0.1.aar\91f286e441f096b9936945f558e5f8a1\AndroidManifest.xml:2:1-17:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\abea0dcad9edde63146d89199a6ffb27\AndroidManifest.xml:17:1-31:12
@@ -49,20 +49,20 @@ MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Lenovo\.gra
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\eac56d61a2ac55aab0a95e1e6eecc60d\AndroidManifest.xml:17:1-31:12
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.0.aar\cc1f90b304497e0386ea8d93c47ab6db\AndroidManifest.xml:17:1-24:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b2012a2e7c05fe1998326235ef63bafe\AndroidManifest.xml:17:1-30:12
-INJECTED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:2:1-61:12
 	package
 		ADDED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:3:5-33
 		INJECTED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml
 		INJECTED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml
-		ADDED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:2:1-55:12
+		ADDED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:2:1-61:12
 		INJECTED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml
-		ADDED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:2:1-55:12
+		ADDED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:2:1-61:12
 		INJECTED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:2:11-69
@@ -91,7 +91,7 @@ ADDED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:7:5-80
 	android:name
 		ADDED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:7:22-77
 application
-ADDED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:9:5-53:19
+ADDED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:9:5-59:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\0a6e98a08836dc81e62b1d4233949887\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\0a6e98a08836dc81e62b1d4233949887\AndroidManifest.xml:25:5-29:19
 MERGED from [com.github.shinelw:library:1.0.1] C:\Users\Lenovo\.gradle\caches\transforms-1\files-1.1\library-1.0.1.aar\91f286e441f096b9936945f558e5f8a1\AndroidManifest.xml:11:5-15:19
@@ -232,26 +232,42 @@ ADDED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:45:9-47
 		ADDED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:47:13-53
 	android:name
 		ADDED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:46:13-44
-activity#com.lenovo.newgame.activity.Scoreborad
-ADDED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:48:9-57
-	android:name
-		ADDED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:48:19-54
 activity#com.lenovo.newgame.activity.Dashboard_Activity
-ADDED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:49:9-65
+ADDED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:48:9-65
 	android:name
-		ADDED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:49:19-62
-activity#com.lenovo.newgame.activity.game_2048
-ADDED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:50:9-56
+		ADDED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:48:19-62
+activity#com.lenovo.newgame.game_2048
+ADDED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:49:9-47
 	android:name
-		ADDED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:50:19-53
+		ADDED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:49:19-44
 activity#com.lenovo.newgame.quiz
-ADDED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:51:9-42
+ADDED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:50:9-42
 	android:name
-		ADDED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:51:19-39
+		ADDED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:50:19-39
+activity#com.lenovo.newgame.maingame.GameActivity
+ADDED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:51:9-59
+	android:name
+		ADDED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:51:19-56
+activity#com.lenovo.newgame.classes.HowToPopUp
+ADDED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:53:9-56:20
+	android:screenOrientation
+		ADDED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:54:13-49
+	android:theme
+		ADDED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:55:13-61
+	android:name
+		ADDED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:53:19-53
+activity#com.lenovo.newgame.activity.Scoreborad
+ADDED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:57:9-97
+	android:screenOrientation
+		ADDED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:57:55-95
+	android:name
+		ADDED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:57:19-54
 activity#com.lenovo.newgame.activity.video
-ADDED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:52:9-61
+ADDED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:58:5-88
+	android:screenOrientation
+		ADDED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:58:46-86
 	android:name
-		ADDED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:52:19-49
+		ADDED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml:58:15-45
 uses-sdk
 INJECTED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\@PRACTICE\android\newGame\app\src\main\AndroidManifest.xml

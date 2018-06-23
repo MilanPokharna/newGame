@@ -46,7 +46,12 @@
                 android:id="@+id/nav"
                 android:icon="@drawable/ic_extension_black_24dp"
                 android:title="Quiz Time" />
+            <item
+                android:id="@+id/owlgame"
+                android:icon="@drawable/ic_adb_black_24dp"
+                android:title="Owl" />
         </menu>
+
     </item>
 
 

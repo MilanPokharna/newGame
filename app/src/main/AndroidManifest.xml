@@ -45,11 +45,17 @@
         <activity
             android:name=".activity.object"
             android:screenOrientation="userPortrait" />
-        <activity android:name=".activity.Scoreborad" />
         <activity android:name=".activity.Dashboard_Activity" />
-        <activity android:name=".activity.game_2048" />
+        <activity android:name=".game_2048" />
         <activity android:name=".quiz" />
-        <activity android:name=".activity.video"></activity>
+        <activity android:name=".maingame.GameActivity" />
+
+        <activity android:name=".classes.HowToPopUp"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.CustomPopUpTheme">
+        </activity>
+        <activity android:name=".activity.Scoreborad" android:screenOrientation="userPortrait"/>
+    <activity android:name=".activity.video" android:screenOrientation="userPortrait"/>
     </application>
 
 </manifest>

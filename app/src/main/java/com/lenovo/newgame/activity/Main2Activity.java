@@ -14,11 +14,7 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 
 import com.lenovo.newgame.R;
-import com.lenovo.newgame.fragments.fourFragment;
-import com.lenovo.newgame.fragments.OneFragment;
-import com.lenovo.newgame.fragments.ThreeFragment;
-import com.lenovo.newgame.fragments.TwoFragment;
-import com.lenovo.newgame.fragments.videoFragment;
+import com.lenovo.newgame.fourFragment;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -67,6 +63,12 @@ public class Main2Activity extends AppCompatActivity {
 
         tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(viewPager);
+
+
+
+
+
+
     }
 
     private void setupViewPager(ViewPager viewPager) {
@@ -75,8 +77,7 @@ public class Main2Activity extends AppCompatActivity {
         adapter.addFragment(new ThreeFragment(), "Area ");
         adapter.addFragment(new OneFragment(), "Trigonometry");
         adapter.addFragment( new fourFragment(),"Tables" );
-        adapter.addFragment(new videoFragment(),"Learn by Watch");
-
+        adapter.addFragment(new videoFragment(),"Video");
         viewPager.setAdapter(adapter);
     }
 
