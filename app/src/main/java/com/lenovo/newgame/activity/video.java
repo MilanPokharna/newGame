@@ -119,7 +119,6 @@ public class video extends AppCompatActivity {
     private void callme(String value) {
         if (value.equals("preschool"))
         {
-            Toast.makeText(this, "preschool", Toast.LENGTH_SHORT).show();
             adapterTwo = new RecyclerViewAdapterTwo(video.this,preschool,preschoolname,preschoolimg);
             progressDialog.dismiss();
             recyclerView.setAdapter( adapterTwo );

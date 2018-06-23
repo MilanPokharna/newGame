@@ -210,17 +210,15 @@ public class Dashboard_Activity extends AppCompatActivity {
             mchild=myref.child("User").child( user.getUid().toString() );
             int scorefinal = objectlevel+basiclevel+trignolevel;
             String name =  user.getDisplayName();
-            Toast.makeText( this, ""+name, Toast.LENGTH_SHORT ).show();
             Uri photo = user.getPhotoUrl();
             String score = String.valueOf( scorefinal*10 );
             mchild.child("username").setValue(name);
             mchild.child("profileimage").setValue(photo.toString());
             mchild.child( "score" ).setValue( score );
-            Toast.makeText(this, "Score Udapted", Toast.LENGTH_SHORT).show();
-            //startActivity(new Intent(HomeActivity.this,Scoreborad.class));
+            startActivity(new Intent(Dashboard_Activity.this,Scoreborad.class));
         }
         else{
-            Toast.makeText( this, "Not uplaod data", Toast.LENGTH_SHORT ).show();
+
         }
     }
 

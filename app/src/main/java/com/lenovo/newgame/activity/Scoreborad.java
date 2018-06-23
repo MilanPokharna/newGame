@@ -141,6 +141,7 @@ public class Scoreborad extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        finish();
+
+
     }
 }
