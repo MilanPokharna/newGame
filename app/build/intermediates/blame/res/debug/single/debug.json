@@ -2164,10 +2164,6 @@
         "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\drawable\\botao_pressionado.xml"
     },
     {
-        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_logo_2048.png.flat",
-        "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\drawable-v24\\logo_2048.png"
-    },
-    {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\layout-v26_abc_screen_toolbar.xml.flat",
         "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\abea0dcad9edde63146d89199a6ffb27\\res\\layout-v26\\abc_screen_toolbar.xml"
     },
@@ -2858,10 +2854,6 @@
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\drawable_professional.png.flat",
         "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\drawable\\professional.png"
-    },
-    {
-        "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_game.xml.flat",
-        "source": "E:\\@PRACTICE\\android\\newGame\\app\\src\\main\\res\\layout\\select_game.xml"
     },
     {
         "merged": "E:\\@PRACTICE\\android\\newGame\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",

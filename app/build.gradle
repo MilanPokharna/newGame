@@ -30,6 +30,11 @@ android {
         // but continue the build even when errors are found:
         abortOnError false
     }
+
+// ...
+        aaptOptions.cruncherEnabled = false
+        aaptOptions.useNewCruncher = false
+// ...
 }
 
 dependencies {
