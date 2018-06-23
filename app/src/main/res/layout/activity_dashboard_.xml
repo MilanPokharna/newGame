@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:autoSizeTextType="uniform"
-        android:fontFamily="@font/comickings"
+        android:fontFamily="@font/comicpanels"
         android:text="@string/student_over_all_performence"
         android:gravity="center"
         android:textColor="#000000"
