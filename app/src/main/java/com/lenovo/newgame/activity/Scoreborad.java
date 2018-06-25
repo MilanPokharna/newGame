@@ -114,8 +114,6 @@ public class Scoreborad extends AppCompatActivity {
 
             }
 
-
-
         });
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
@@ -141,7 +139,8 @@ public class Scoreborad extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-
-
+        super.onBackPressed();
+        Intent intent = new Intent(Scoreborad.this,HomeActivity.class);
+        startActivity(intent);
     }
 }
