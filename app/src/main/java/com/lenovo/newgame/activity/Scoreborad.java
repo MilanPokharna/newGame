@@ -36,9 +36,6 @@ public class Scoreborad extends AppCompatActivity {
     public static TextView score_first,score_second,score_third;
     public static TextView first_name,second_name,third_name;
     public static CircleImageView profileimage1,profileimage2,profileimage3;
-
-
-
     FirebaseUser user;
     RecyclerViewAdapter adapter;
     RecyclerViewAdapter clearAdapter;
@@ -119,17 +116,10 @@ public class Scoreborad extends AppCompatActivity {
             @Override
             public void onRefresh() {
 
-                //adapter = new RecyclerViewAdapter(MainActivity.this, list,stringList);
                 Intent intent = new Intent(Scoreborad.this,Scoreborad.class);
                 finish();
                 startActivity(intent);
                 overridePendingTransition( 0, 0);
-
-
-//                        adapter = new RecyclerViewAdapter(MainActivity.this, list,stringList);
-//
-//                        recyclerView.setAdapter(adapter);
-
 
                 swipeRefreshLayout.setRefreshing(false);
             }
