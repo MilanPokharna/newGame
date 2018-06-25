@@ -36,6 +36,7 @@ import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.lenovo.newgame.R;
 import com.shinelw.library.ColorArcProgressBar;
+import android.app.ProgressDialog;
 
 import java.util.Locale;
 
@@ -44,7 +45,7 @@ public class Dashboard_Activity extends AppCompatActivity {
     ColorArcProgressBar progressBar;
 
     RoundCornerProgressBar roundCornerProgressBar;
-
+    ProgressDialog progressDialog;
     FirebaseUser user;
     FirebaseAuth mAuth;
     LinearLayout trigno, learnbook, object;
@@ -75,7 +76,7 @@ public class Dashboard_Activity extends AppCompatActivity {
         storeimage = FirebaseStorage.getInstance().getReference();
 
         roundCornerProgressBar=(RoundCornerProgressBar)findViewById(R.id.simpleProgressBar);
-
+        progressDialog = new ProgressDialog(Dashboard_Activity.this);
         RoundCornerProgressBar roundCornerProgressBar1 = (RoundCornerProgressBar) findViewById( R.id.simpleProgressBar_1 );
         RoundCornerProgressBar roundCornerProgressBar2 = (RoundCornerProgressBar) findViewById( R.id.simpleProgressBar_2 );
         roundCornerProgressBar1.setMax( 100 );
@@ -99,7 +100,6 @@ public class Dashboard_Activity extends AppCompatActivity {
                 .enableAutoManage(this, new GoogleApiClient.OnConnectionFailedListener() {
                     @Override
                     public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
-
                     }
                 })
                 .addApi( Auth.GOOGLE_SIGN_IN_API,gso)
@@ -110,13 +110,9 @@ public class Dashboard_Activity extends AppCompatActivity {
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                HomeActivity homeActivity=new HomeActivity();
                 if(user!=null)
                 {
                     uploadData( user );
-                    Intent i=new Intent(Dashboard_Activity.this,Scoreborad.class);
-                    startActivity(i);
                 }
                 else
                 {
@@ -166,8 +162,6 @@ public class Dashboard_Activity extends AppCompatActivity {
 
         if (user != null) {
             uploadData( user );
-
-
         }
         else
         {
@@ -206,7 +200,9 @@ public class Dashboard_Activity extends AppCompatActivity {
     private void uploadData(FirebaseUser user) {
         if(user != null)
         {
-
+            progressDialog.setMessage("Uploading Data");
+            progressDialog.setCancelable(false);
+            progressDialog.show();
             mchild=myref.child("User").child( user.getUid().toString() );
             int scorefinal = objectlevel+basiclevel+trignolevel;
             String name =  user.getDisplayName();
@@ -215,6 +211,7 @@ public class Dashboard_Activity extends AppCompatActivity {
             mchild.child("username").setValue(name);
             mchild.child("profileimage").setValue(photo.toString());
             mchild.child( "score" ).setValue( score );
+            progressDialog.cancel();
             startActivity(new Intent(Dashboard_Activity.this,Scoreborad.class));
         }
         else{
